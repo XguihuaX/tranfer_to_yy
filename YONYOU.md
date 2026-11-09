@@ -19,7 +19,7 @@
 1. 下载或克隆整个迁移仓库。
 2. 将 `projects/yonyou/` 作为学习项目目录，可以直接在这里使用，也可以复制到自己的工作目录。若已存在同名项目，先比较并保留已有修改。
 3. 阅读该目录的 `AGENTS.md`、`LEARNING-HUB.md`、`TEACHING-GUIDE.md` 及相关 `learning/*/PROGRESS.md`。
-4. 进入该项目目录，再按仓库根 [README.md](README.md) 中对应系统的命令重建 Python 环境和启动教材。
+4. 进入该项目目录，再按 [Windows 配置指南](setup/WINDOWS.md) 重建基础环境和启动教材。
 5. 在 PyCharm 中选择新建解释器与实际工作目录；已有 README 中的旧 Mac 绝对路径仅作历史参考。
 
 例如，从迁移仓库根进入项目：

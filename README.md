@@ -10,6 +10,7 @@
 
 本仓库已包含用友教材、代码和学习进度快照、75 个 AI Skills，以及用户指定的两段全局 AGENTS.md 规则。其他个人项目、MCP 账号及模型凭据尚未迁移；公司电脑上的安装与验证仍待执行。
 
+- [Windows 软件与基础环境配置](setup/WINDOWS.md)：含 PyCharm 免费模式、共用 requirements、ChatGPT 直接 MSIX 下载。
 - [用友项目与验证说明](YONYOU.md)：文件位于 `projects/yonyou/`。
 - [AI Skills 清单及恢复方法](SKILLS.md)：文件位于 `skills/`。
 - [全局 AGENTS.md 规则合并说明](configs/codex/README.md)：原文位于 `configs/codex/AGENTS-fragment.md`。
@@ -20,7 +21,7 @@
 | 其他代码项目 | 用户希望纳入，具体名单待补 | 补充名称、来源仓库或文件包、所需数据 |
 | AI 工具配置 | 75 个工程与应用 Skills 已上传；其他配置待盘点 | 按 SKILLS.md 恢复 Skills，按目标系统调整其他配置 |
 | 全局 AGENTS.md | 用户指定的两段原文已包含 | 按 configs/codex/README.md 合并到用户级文件 |
-| 公司电脑 | 已拿到，系统和安装权限待确认 | 在目标电脑检测 |
+| 公司电脑 | 已确认 Windows；安装权限待目标电脑检查 | 按 setup/WINDOWS.md 配置软件和基础环境 |
 | 新电脑恢复验证 | 尚未执行 | 按下文执行并记录结果 |
 
 ## 给新电脑上的 Codex
@@ -36,7 +37,7 @@
 1. 检测系统、CPU 架构、Python、Git、IDE 和项目目录；只询问无法从环境确定的必要信息。
 2. 下载或克隆本仓库，用友项目已经位于 `projects/yonyou/`；可直接在该目录使用，或复制到选定工作目录。对其他未列明的项目，只记录缺项，不阻塞已包含项目的恢复。
 3. 进入具体项目后先读该项目的 AGENTS.md。用友项目还要读 LEARNING-HUB.md、TEACHING-GUIDE.md 和当前模块的 PROGRESS.md。
-4. 按项目建立虚拟环境、恢复依赖和运行配置。遇到已存在的配置先检查并保留，再做有针对性的修改。
+4. 目标电脑已确认 Windows，按 [setup/WINDOWS.md](setup/WINDOWS.md) 安装所需软件，为用友项目建立共用 `.venv` 和教材 `.venv-docs`，运行 `setup/verify_base.py` 并配置 PyCharm。遇到已存在的配置先检查并保留，再做有针对性的修改。
 5. 先运行不需要外部账号的本地示例，再完成需要用户登录的接入。真实模型调用使用用户确定的服务和账号。
 6. 按 [SKILLS.md](SKILLS.md) 恢复所选 Skills；按 [全局规则说明](configs/codex/README.md) 合并两段 AGENTS.md 原文，保留目标文件其他内容。
 7. 持续记录已完成、失败原因、缺失资料与下一步；重复执行时跳过已验证且未变化的步骤。
@@ -69,60 +70,15 @@
 
 ### 重建运行环境
 
-项目示例使用 Python 3.12。目标电脑先确认可用的 Python 3.12 解释器，再执行对应系统的命令；以下所有命令均从用友项目根目录运行。若刚克隆迁移仓库，先执行 `cd projects/yonyou`；若已将项目复制到其他工作目录，则进入该实际目录。
+目标电脑已确认是 Windows，按 [Windows 配置指南](setup/WINDOWS.md) 执行，优先复用已有的软件。
 
-Windows 命令使用 cmd；如使用 PowerShell，按其语法调整。以下命令不需要激活虚拟环境。若 `py` 或 `python3.12` 不存在，先定位或安装 Python，不要反复执行同一失败命令。
+- 基础直接依赖：[setup/requirements-base.txt](setup/requirements-base.txt)。
+- Windows x64 完整版本快照：[setup/requirements-base-windows.lock.txt](setup/requirements-base-windows.lock.txt)。
+- Python/API/LLM 共用 `projects/yonyou/.venv`；教材网页使用 `.venv-docs`。
+- 基础验证：[setup/verify_base.py](setup/verify_base.py)，不请求外部模型。
+- MCP 为选装：[setup/requirements-mcp.txt](setup/requirements-mcp.txt)。
 
-**教材环境——Windows cmd：**
-
-```bat
-py -3.12 -m venv .venv-docs
-.venv-docs\Scripts\python.exe -m pip install -r requirements-docs.lock.txt
-.venv-docs\Scripts\python.exe -m mkdocs build --strict
-.venv-docs\Scripts\python.exe -m mkdocs serve --dev-addr 127.0.0.1:8765
-```
-
-**教材环境——macOS/zsh：**
-
-```sh
-python3.12 -m venv .venv-docs
-.venv-docs/bin/python -m pip install -r requirements-docs.lock.txt
-.venv-docs/bin/python -m mkdocs build --strict
-.venv-docs/bin/python -m mkdocs serve --dev-addr 127.0.0.1:8765
-```
-
-访问 `http://127.0.0.1:8765/` 验证教材。serve 会持续运行，其他操作另开终端；Ctrl+C 停止。原 `scripts/serve-docs.sh` 使用 macOS/Linux 环境路径，Windows 可直接使用上面的命令。
-
-**03 计算助手 MVP——Windows cmd：**
-
-```bat
-py -3.12 -m venv learning/03-llm-tools/mvp/.venv
-learning\03-llm-tools\mvp\.venv\Scripts\python.exe -m pip install -r learning/03-llm-tools/mvp/requirements.txt
-learning\03-llm-tools\mvp\.venv\Scripts\python.exe learning/03-llm-tools/mvp/main.py
-```
-
-**03 计算助手 MVP——macOS/zsh：**
-
-```sh
-python3.12 -m venv learning/03-llm-tools/mvp/.venv
-learning/03-llm-tools/mvp/.venv/bin/python -m pip install -r learning/03-llm-tools/mvp/requirements.txt
-learning/03-llm-tools/mvp/.venv/bin/python learning/03-llm-tools/mvp/main.py
-```
-
-执行前确认 `main.py` 的 `MODE = "local"`，预期出现 `multiply(12, 3) → 36` 和 `add(36, 8) → 44`；此模式无需模型 Key。若源码已变化，先核对当前运行入口。
-
-PyCharm 打开相应示例目录，选择新建环境的解释器，工作目录选择该示例目录。旧 MVP README 中指向 Mac 验证环境的绝对路径应替换成新电脑的环境路径。
-
-其他示例按需要恢复，不必一次安装全部：
-
-| 用途 | 依赖或说明位置 |
-| --- | --- |
-| 01 API 示例 | `learning/01-python-api/api-lab/README.md` 与 `requirements.lock.txt` |
-| 03 连续 LLM 示例 | `learning/03-llm-tools/lab/README.md` 与 `requirements.txt` |
-| 03 MCP 示例 | `learning/03-llm-tools/lab/requirements-mcp.txt` |
-| 03 作者完整环境记录 | `learning/03-llm-tools/requirements-verified.lock.txt` |
-
-这些依赖文件来自旧电脑项目；本次尚未在目标系统重新安装验证。如果版本或包源不可用，记录具体错误后核对版本和兼容性，不直接批量升级全部依赖。
+Python 使用 3.12。课程原有模块依赖文件保留供单独复现；配置共用环境时不逐一叠加旧锁文件。恢复期间的命令、当前目录与 PyCharm 解释器选择，统一以 Windows 配置指南为准。旧 Mac 绝对路径需替换为新电脑实际路径。
 
 ### 模型服务配置
 

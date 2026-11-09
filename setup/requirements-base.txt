@@ -1,0 +1,12 @@
+# Python 3.12. Shared environment for the existing 01 API and 03 LLM lessons.
+# Direct dependencies pinned from the course's existing verified environments.
+# Windows transitive dependency snapshot: requirements-base-windows.lock.txt
+fastapi==0.159.1
+uvicorn==0.54.0
+websockets==17.4
+httpx==0.28.1
+pydantic==2.14.3
+langchain==1.4.9
+langchain-core==1.7.6
+langchain-openai==1.7.4
+openai==3.46.0
