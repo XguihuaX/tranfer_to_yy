@@ -2,6 +2,8 @@
 
 更新：2026-11-09。用户已确认公司电脑为 Windows。本文供新电脑上的 Codex 执行；当前还没有在目标 Windows 电脑安装软件。
 
+软件下载与账号状态统一记录在 [DOWNLOADS.md](DOWNLOADS.md)，其中也列出公司代码使用外部 AI 需要确认的范围。
+
 ## 安装哪些软件
 
 | 程序 | 用途 | 本次安排 |
@@ -55,9 +57,13 @@ uv 会安装当前 uv 版本支持的 3.12 补丁版本；若版本清单较旧�
 
 - Intel/AMD x64：[ChatGPT-x64.msix](https://persistent.oaistatic.com/codex-app-prod/ChatGPT-x64.msix)
 - ARM64（如 ARM 版 Windows 设备）：[ChatGPT-arm64.msix](https://persistent.oaistatic.com/codex-app-prod/ChatGPT-arm64.msix)
-- 两种架构均需配套：[ChatGPT-License.xml](https://persistent.oaistatic.com/codex-app-prod/ChatGPT-License.xml)
+- 采用下述设备级离线部署时，另需：[ChatGPT-License.xml](https://persistent.oaistatic.com/codex-app-prod/ChatGPT-License.xml)
 
-这是官方文档直接提供的 MSIX 与离线许可证链接，不需要经过商店界面或使用 `winget --source msstore`。将选中的 MSIX 改名为 `ChatGPT.msix`，与 `ChatGPT-License.xml` 放在同一文件夹；许可证若被浏览器直接显示，可用“另存为”保留 XML 扩展名。
+这是官方文档直接提供的 MSIX 与离线许可证链接，不需要经过商店界面或使用 `winget --source msstore`。
+
+如果只为当前 Windows 用户安装，可先尝试双击 MSIX，或在文件所在文件夹运行 `Add-AppxPackage -Path .\ChatGPT-x64.msix`（ARM64 使用对应文件名）。这是 Windows 的[单用户安装方式](https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage)；本轮未在目标电脑验证此包的安装、许可和启动结果。若安装并正常启动，无需另走设备级预配。下列两文件流程是 OpenAI 文档给出的设备级离线部署方案。
+
+将选中的 MSIX 改名为 `ChatGPT.msix`，与 `ChatGPT-License.xml` 放在同一文件夹；许可证若被浏览器直接显示，可用“另存为”保留 XML 扩展名。
 
 在该文件夹中以管理员身份打开 **Windows PowerShell**，执行：
 

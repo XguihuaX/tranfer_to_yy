@@ -10,6 +10,7 @@
 
 本仓库已包含用友教材、代码和学习进度快照、75 个 AI Skills，以及用户指定的两段全局 AGENTS.md 规则。其他个人项目、MCP 账号及模型凭据尚未迁移；公司电脑上的安装与验证仍待执行。
 
+- [软件下载、账号准备与公司代码使用范围](setup/DOWNLOADS.md)：记录官方入口和新电脑的实际完成状态。
 - [Windows 软件与基础环境配置](setup/WINDOWS.md)：含 PyCharm 免费模式、共用 requirements、ChatGPT 直接 MSIX 下载。
 - [用友项目与验证说明](YONYOU.md)：文件位于 `projects/yonyou/`。
 - [AI Skills 清单及恢复方法](SKILLS.md)：文件位于 `skills/`。
