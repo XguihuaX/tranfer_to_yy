@@ -1,0 +1,1016 @@
+{
+  "date": "2026-11-09",
+  "source": "~/Documents/ChatGPT/用友",
+  "destination": "projects/yonyou",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "70aaa718b3953fb36b52551124380175010d067d27e04be9013a68f6d50683d7"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 10419,
+      "sha256": "47569ee8d9da31ded1ca94f9ea9a3ec1c4569c161c4356b76151144fab88b783"
+    },
+    {
+      "path": "LEARNING-HUB.md",
+      "bytes": 10133,
+      "sha256": "c0a86b9aa93a395db6af5bc461e625e9eb03baaa44d395466aa09ca4b49c004b"
+    },
+    {
+      "path": "TEACHING-GUIDE.md",
+      "bytes": 5389,
+      "sha256": "55b24f4a19038f1f70479dba48250766835fc84b4c840f6b29b75b59c46f671d"
+    },
+    {
+      "path": "docs/.pages",
+      "bytes": 151,
+      "sha256": "4f7cf831a11a6926289d33a770010a89e216a0cd9667d311ec5ce9c4768410de"
+    },
+    {
+      "path": "docs/00-products/.pages",
+      "bytes": 63,
+      "sha256": "67216c1297904876eedc108c85490e10efa8b1cc5fd2f877826bc229658f0919"
+    },
+    {
+      "path": "docs/00-products/01-what-is-erp.md",
+      "bytes": 14911,
+      "sha256": "eaba626da0d1f2ba36b7137f5b8da81a77842873b456d7ab422f97900d8937b0"
+    },
+    {
+      "path": "docs/00-products/02-business-objects.md",
+      "bytes": 17583,
+      "sha256": "5175ab06c4cd7e48a7f56cbe2cf86bb78cff205191f752a278081b6bd97e827c"
+    },
+    {
+      "path": "docs/00-products/03-documents-and-status.md",
+      "bytes": 15969,
+      "sha256": "099bc7e5aba7135a943a967d61f0701def74fe0bd57c73f7212c5b133508ff99"
+    },
+    {
+      "path": "docs/00-products/04-order-to-shipment.md",
+      "bytes": 12955,
+      "sha256": "232379c14ffb71ce8ff599267d62b7498ef0faf3726f3a4995f5299aa66531ef"
+    },
+    {
+      "path": "docs/00-products/05-receivables-to-cash.md",
+      "bytes": 13575,
+      "sha256": "f448eda7f281eee1ee5822a9293a51b32e1852502564fcb2665051cebb6336fc"
+    },
+    {
+      "path": "docs/00-products/06-exceptions-purchasing-inventory.md",
+      "bytes": 13695,
+      "sha256": "b10536611b41300722e5cb29e2c4ceda4f45d6acf3ad79de81ad7377b09c0f41"
+    },
+    {
+      "path": "docs/00-products/07-ai-and-product-map.md",
+      "bytes": 15419,
+      "sha256": "12cb6125466a7c5a5878eed89926721ab0f3f46e00af9cc3df92a2913948ae95"
+    },
+    {
+      "path": "docs/00-products/08-integration-and-delivery.md",
+      "bytes": 19007,
+      "sha256": "3be17c4a8ba497efcbfaf68262e163884d480a4790af74dc89aa2b92a6a3d9cc"
+    },
+    {
+      "path": "docs/00-products/index.md",
+      "bytes": 3801,
+      "sha256": "fdbb685bd2a357b6dbd2d94de9ee471dd7706031669bdee18438c0b1fbe19db1"
+    },
+    {
+      "path": "docs/01-python-api/.pages",
+      "bytes": 64,
+      "sha256": "9ae7f477228fefe5f1893b20c1347ef23f42dbec659c98172d9dad1691ccbe16"
+    },
+    {
+      "path": "docs/01-python-api/00-client-server-review.md",
+      "bytes": 10150,
+      "sha256": "3dee5e04ea4ecfe94f05e4b33d2db1e5822ea907f4080983497283a0c8cda9d8"
+    },
+    {
+      "path": "docs/01-python-api/00-concept-map.md",
+      "bytes": 2505,
+      "sha256": "0d951e4d803e5046da2b5a9eb59d3b7f0ed740ec80479a02e3ca586fe1439cfe"
+    },
+    {
+      "path": "docs/01-python-api/00-one-example.md",
+      "bytes": 36146,
+      "sha256": "0bba64764ecd255e3fc289b11913b6a48065d8118685bcfcbf3d586f51a7ee16"
+    },
+    {
+      "path": "docs/01-python-api/00-project-libraries.md",
+      "bytes": 14901,
+      "sha256": "01ebd6a9c3a6d6a625ba7cc305b4dd80192f7f6e134013351fd84b5bd1c4c848"
+    },
+    {
+      "path": "docs/01-python-api/01-reading-python.md",
+      "bytes": 10633,
+      "sha256": "441c452599c11411b8900d418f20bd775332d526d89cbf0cd5c027c5f3d32002"
+    },
+    {
+      "path": "docs/01-python-api/02-types-and-contracts.md",
+      "bytes": 20551,
+      "sha256": "3426e512c473c06840cbe423adf990427bf22aa436e24be79b1b75e17f3b4717"
+    },
+    {
+      "path": "docs/01-python-api/03-errors-and-debugging.md",
+      "bytes": 9867,
+      "sha256": "7386f8b942181c7fe041a95d4bab569e6e000199dde63fa036ebf165f544ea41"
+    },
+    {
+      "path": "docs/01-python-api/04-modules-and-project.md",
+      "bytes": 5148,
+      "sha256": "754cf03c0e85120d2875bd839c3163598eecf4e936fccb3329aa80378cffe742"
+    },
+    {
+      "path": "docs/01-python-api/05-async-and-tasks.md",
+      "bytes": 6957,
+      "sha256": "4488a30fb6e83cc978537f9444447355cbdab9207b8b01fb2df95e70674b360f"
+    },
+    {
+      "path": "docs/01-python-api/06-http-and-json.md",
+      "bytes": 20754,
+      "sha256": "ad053f28a9ab0ddb881798e8994fc095127f472e9f4d263dd528fe5a6af77066"
+    },
+    {
+      "path": "docs/01-python-api/07-fastapi-and-pydantic.md",
+      "bytes": 17337,
+      "sha256": "b08d7ca32879f911ae9812f11df385b445ad4039c035b7960b9d230548e7d4b4"
+    },
+    {
+      "path": "docs/01-python-api/08-httpx-and-upstream.md",
+      "bytes": 17482,
+      "sha256": "3885940711ce1f32245272941a913d43d8c49a2d90506a6d62e8f554fb0a7b77"
+    },
+    {
+      "path": "docs/01-python-api/09-streaming-and-sse.md",
+      "bytes": 12697,
+      "sha256": "d8b4fb80b635d323bede8a9f734689f7fb9c7b009c630cf83f9712bfea393d72"
+    },
+    {
+      "path": "docs/01-python-api/10-websocket-and-selection.md",
+      "bytes": 12990,
+      "sha256": "06ea0a9a0996c4949b0de47158d7b84cf943ff8067e88b2a2830af84814ed95f"
+    },
+    {
+      "path": "docs/01-python-api/assets/01-Python-API-概念地图.xmind",
+      "bytes": 18526,
+      "sha256": "a486debb3644bfc2128f79aa0ec400be3a5ac40f59be55e2d850bdefabb993c0"
+    },
+    {
+      "path": "docs/01-python-api/index.md",
+      "bytes": 11286,
+      "sha256": "0988e84b83e34f83970c5bf21b860249c728636a94247c97839d6582d79906be"
+    },
+    {
+      "path": "docs/01-python-api/python-reference.md",
+      "bytes": 19863,
+      "sha256": "8ff6b6765b222bb4c1bd16b2d65419cfd2f0a7059be7d85efc861c877d8be4eb"
+    },
+    {
+      "path": "docs/02-deployment/.pages",
+      "bytes": 392,
+      "sha256": "9d3bf746f31af4a4190ce39942f2f1c85652504baed25894c46167368e3ec58e"
+    },
+    {
+      "path": "docs/02-deployment/01-terminal-paths.md",
+      "bytes": 15653,
+      "sha256": "c6eb90c3c1573aac0978fc75951d62f57e4820a022a1b5fb1297f4063f3ae44d"
+    },
+    {
+      "path": "docs/02-deployment/02-files-and-logs.md",
+      "bytes": 11575,
+      "sha256": "c152ad31c4ac212eb7f046fc01a5ddf71d7399644fe5ac62e5fb7cf2ab4414a6"
+    },
+    {
+      "path": "docs/02-deployment/03-git-changes.md",
+      "bytes": 18286,
+      "sha256": "73dd2c66d09736d7212fab3710b45801b594a75a6ca2810b97f02053267086f9"
+    },
+    {
+      "path": "docs/02-deployment/04-git-collaboration.md",
+      "bytes": 16170,
+      "sha256": "547d2ffd8e05c89397410a47382d4d469522cc91b962069430e09ffb671c0e59"
+    },
+    {
+      "path": "docs/02-deployment/05-environment-and-permissions.md",
+      "bytes": 14960,
+      "sha256": "c6cca10141a75c77a4d3d5e66906314f9b7e8eed06f178c1eb57c4a740d64537"
+    },
+    {
+      "path": "docs/02-deployment/06-processes-and-ports.md",
+      "bytes": 10998,
+      "sha256": "e5a9eb0a20de14c83fc99af15dca5b30a89ae23abccf34627df2b1b60befd223"
+    },
+    {
+      "path": "docs/02-deployment/07-ssh-and-transfer.md",
+      "bytes": 11204,
+      "sha256": "9dc7732279b84aaa211c30bf16004fa87cb680ab12ba69af95db55e84bc6b371"
+    },
+    {
+      "path": "docs/02-deployment/08-delivery-lab.md",
+      "bytes": 13743,
+      "sha256": "83a1edadd0c95057d63657468392b60d29cf953b32a05f8038447224c4f3d98e"
+    },
+    {
+      "path": "docs/02-deployment/09-docker-compose.md",
+      "bytes": 10428,
+      "sha256": "c4f214c1a6b9157ddd2ddd1e683c720968d0422963809b3eea3c0ca0e87a4724"
+    },
+    {
+      "path": "docs/02-deployment/index.md",
+      "bytes": 4963,
+      "sha256": "b55b44c166ad41de2dd676213422680d3f64d40d54593024887a332c9ba908d5"
+    },
+    {
+      "path": "docs/03-llm-tools/.pages",
+      "bytes": 269,
+      "sha256": "c47403a24604ff92711993f3ed28c05a0fb6c59f817b80fbbe50553e8ebbed25"
+    },
+    {
+      "path": "docs/03-llm-tools/01-model-call.md",
+      "bytes": 19411,
+      "sha256": "0bf004f1a43a6ef47e9c6ff6847ea948474a0aea7c4249b3c02d0f56e79aabd2"
+    },
+    {
+      "path": "docs/03-llm-tools/02-messages-context.md",
+      "bytes": 13215,
+      "sha256": "902ca703a11cb4afbda6b153c0f9920fe826b152a49481c85c219a82829badba"
+    },
+    {
+      "path": "docs/03-llm-tools/03-structured-output.md",
+      "bytes": 14226,
+      "sha256": "b7d445dd0d2110ebba3eb80f14fa804c2f5baf21c989a2ff67921b8d7af36098"
+    },
+    {
+      "path": "docs/03-llm-tools/04-tools-loop.md",
+      "bytes": 28955,
+      "sha256": "bcf79d29e211fd84c02f3a17e981f8ced1f8b07bccbee65f31d18d0fcd4581c8"
+    },
+    {
+      "path": "docs/03-llm-tools/05-agent.md",
+      "bytes": 9401,
+      "sha256": "4c82fb9b863ae305b26c130e509ecb785e7d90143e34a35120a384f2173f8ddc"
+    },
+    {
+      "path": "docs/03-llm-tools/06-runtime-debugging.md",
+      "bytes": 9527,
+      "sha256": "8b1b08d821278c9bc422ebb52e9de0305d2a80de605ddb1e4d8ac8e6ff8aad17"
+    },
+    {
+      "path": "docs/03-llm-tools/07-review-delivery.md",
+      "bytes": 9216,
+      "sha256": "3719630897097aaafd08e322f813d31e4bf131a2c3fd79d91e928fae37d7db3e"
+    },
+    {
+      "path": "docs/03-llm-tools/08-mcp.md",
+      "bytes": 8688,
+      "sha256": "144e15a5d7453493eba886dcb6afb73206ee7425057a3376436b76842d4db91e"
+    },
+    {
+      "path": "docs/03-llm-tools/index.md",
+      "bytes": 5179,
+      "sha256": "3a42ec4f558bf4bf0f7f2819eba8b1a975e5e9208819df1219003a1ea4e0467b"
+    },
+    {
+      "path": "docs/03-llm-tools/mvp-walkthrough.md",
+      "bytes": 10335,
+      "sha256": "1253b52ff10b2eddde9ac0c69af48a10fc0523eb1b14ddbad10b87323b20d5bf"
+    },
+    {
+      "path": "docs/04-rag-data/.pages",
+      "bytes": 62,
+      "sha256": "0eec18d0a833f6994db94d2f2384cf5e269d535fa7219c280b58eb0d5c0d519c"
+    },
+    {
+      "path": "docs/04-rag-data/index.md",
+      "bytes": 474,
+      "sha256": "2078e195def68a92a840e4ab408569ba0369f42eca51e8b172f99c96e184707b"
+    },
+    {
+      "path": "docs/05-agents/.pages",
+      "bytes": 59,
+      "sha256": "5ded4a402bc50fa00a7e5af13ea104dc99469b081804a7e1c0ddec362c449484"
+    },
+    {
+      "path": "docs/05-agents/index.md",
+      "bytes": 471,
+      "sha256": "9ba0104db1ea4a2f2231abc054ee6a320cb19accc3cb24a283eef6b4b05769ea"
+    },
+    {
+      "path": "docs/06-finetuning/.pages",
+      "bytes": 54,
+      "sha256": "b9fd46c67136fdc86046e3e08cc4db3a43fd36e532a581e51e88a49b55d822e4"
+    },
+    {
+      "path": "docs/06-finetuning/index.md",
+      "bytes": 478,
+      "sha256": "ad9ca167f7bd2d337334dae4f1cf0bd64296c7c40285ac2f4081084cf5d4b408"
+    },
+    {
+      "path": "docs/07-delivery/.pages",
+      "bytes": 57,
+      "sha256": "cfec9c57b8d3b3b2497f11d5e59cc78ca60a2aa91b6af517904d9a157ec1a929"
+    },
+    {
+      "path": "docs/07-delivery/index.md",
+      "bytes": 470,
+      "sha256": "9d98552ad0a61b92cc0ed3aaab39a78a3e8fd2134816835ac2e24e4f9a97c625"
+    },
+    {
+      "path": "docs/08-database/.pages",
+      "bytes": 66,
+      "sha256": "59c9242b3eb2f52d91c76adceb582432dff54f9c558836ea485ccf30879e5cfd"
+    },
+    {
+      "path": "docs/08-database/01-sqlite-first-query.md",
+      "bytes": 26113,
+      "sha256": "292d75f1b2815cce866491362e963fa7bf86640d10ed18dfb9ec7c8d794e6d2f"
+    },
+    {
+      "path": "docs/08-database/index.md",
+      "bytes": 1073,
+      "sha256": "d494a89085ce0c39338b7b6c49bfc71928170f093c61200248028231bb5dedb6"
+    },
+    {
+      "path": "docs/index.md",
+      "bytes": 3894,
+      "sha256": "b4a82ee2883fa190a1fc6f0f4805ddbe838d1f07e7e8dc53e7ea7ec87f3eea4a"
+    },
+    {
+      "path": "learning/00-products/CHAPTERS.md",
+      "bytes": 6046,
+      "sha256": "21d4669a8a592aba7f9669200e873064b02742853aa582e06361614ea7ba0e72"
+    },
+    {
+      "path": "learning/00-products/LEARNING-SCOPE.md",
+      "bytes": 6990,
+      "sha256": "bfcfc04870d64fff3fec9ad3c5171e59e672a608d3890eb107b6d04dfb132c90"
+    },
+    {
+      "path": "learning/00-products/PROGRESS.md",
+      "bytes": 17975,
+      "sha256": "5b913f007d634407cb0e0eef4950a6ef0a498976f334fd4b3cb3f9277ba309cf"
+    },
+    {
+      "path": "learning/01-python-api/.gitignore",
+      "bytes": 30,
+      "sha256": "6e256fd0beaf257abc8c31ae212a08eb690dd24c8c01f96fd7c3cd5cda290b43"
+    },
+    {
+      "path": "learning/01-python-api/02-types-and-contracts.py",
+      "bytes": 1149,
+      "sha256": "3d4d38b296456c401876b01b0fa92a9617d71a773306f9a3ef83e5bb82887246"
+    },
+    {
+      "path": "learning/01-python-api/03-errors-and-debugging.py",
+      "bytes": 496,
+      "sha256": "e0520d20cb754ce39c123dae406e82708f8c64d44bff46322dc8cfd415d48554"
+    },
+    {
+      "path": "learning/01-python-api/04-mini-project/main.py",
+      "bytes": 798,
+      "sha256": "1d07f8ddc2aba9296bc7a4f5d5a75a029dca8131dfe552029fce61301fbfb90f"
+    },
+    {
+      "path": "learning/01-python-api/04-mini-project/query.log",
+      "bytes": 78,
+      "sha256": "58f3ef62d150dbdc275052e737eaa55e6492a4bedcf9eab8773232252989873b"
+    },
+    {
+      "path": "learning/01-python-api/04-mini-project/repository.py",
+      "bytes": 199,
+      "sha256": "8ec2af732419465120836368ac9c10c80fc068d8427b2b0014b4fd053522c4e8"
+    },
+    {
+      "path": "learning/01-python-api/04-mini-project/service.py",
+      "bytes": 427,
+      "sha256": "5e97cccb71093dcb653edd289561f9dc4efbb59286f7c26966a233586ebe896d"
+    },
+    {
+      "path": "learning/01-python-api/05-async-and-tasks.py",
+      "bytes": 1415,
+      "sha256": "dc8994dab5b23bf5e91e851bceac53ef12911d52f4ff5ca93b403eb231343f05"
+    },
+    {
+      "path": "learning/01-python-api/06-json-roundtrip.py",
+      "bytes": 873,
+      "sha256": "6144f495ef910dadd60260dac88646aba928fdb8fc5b6e0b2c2f04c600c26143"
+    },
+    {
+      "path": "learning/01-python-api/API-VERIFICATION.json",
+      "bytes": 2733,
+      "sha256": "156ca765bdd8da9735a4c8168d7091cfb4a625141d2274bde437c475fd228416"
+    },
+    {
+      "path": "learning/01-python-api/PROGRESS.md",
+      "bytes": 19960,
+      "sha256": "21095dc75bbd7512672cd0586a868cc778c508d0448ac7cc274df6f0774c3cd8"
+    },
+    {
+      "path": "learning/01-python-api/REVIEW-2026-10-22.md",
+      "bytes": 4843,
+      "sha256": "6d611caac110458c1c8d19f76d7430eb4f2630b109c91eadd27b9533d67699a5"
+    },
+    {
+      "path": "learning/01-python-api/TEXTBOOK-VERIFICATION.json",
+      "bytes": 2058,
+      "sha256": "714e9419e6740f77aa94bb08a4f324aaf77e3212197cda38f27bb79eda9c008c"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/README.md",
+      "bytes": 4059,
+      "sha256": "11d72110ef55ffb386ff07453d70e1f7deb6d188dd571cd3180b6eab440ac188"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/app_api.py",
+      "bytes": 1349,
+      "sha256": "501258d8c12d47387430f416081687ba5ec8bd69886812a74f26cd36cbfff4e6"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/app_gateway.py",
+      "bytes": 1977,
+      "sha256": "36537ad024a78ee17d969db29077fc706fa7474926667c61ffb6c774637ce8b2"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/app_stream.py",
+      "bytes": 3434,
+      "sha256": "06ba57f94bd9c67c5720afc2ba1e94786d41a74f952002885e73628862f6be93"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/app_ws.py",
+      "bytes": 4035,
+      "sha256": "868cabc02b6e828fd5a0085830e8187f7c74013a2731b98c2a90870b55b8d1f0"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/audit_textbook.py",
+      "bytes": 5114,
+      "sha256": "dd49d0ea0af1620b610a1ab15167363914508a06585444e2cf7f14c88c530c48"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/domain.py",
+      "bytes": 1386,
+      "sha256": "e083fb0bdff75e6a82e7f432e79adbbdb0ce543cf1b160135825ed2dd073d8a3"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/erp_client.py",
+      "bytes": 1770,
+      "sha256": "6f2d5b43a739d512614b95171c6740c42f82df44a09e29af9cc9a6018963bb62"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/models.py",
+      "bytes": 756,
+      "sha256": "d9622c3ded134f6f08421b972a5d89149183d444df554f1289f5527b0db7a530"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/requirements.lock.txt",
+      "bytes": 327,
+      "sha256": "f35bdc293bae442011c0e0d4820f72d6421898d13035bf1336109af57bae42dd"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/sync_client.py",
+      "bytes": 890,
+      "sha256": "9313ded0d84931073719bd0449ac5aa2edd92b4f84f55e217fdfe095f23eda39"
+    },
+    {
+      "path": "learning/01-python-api/api-lab/verification.py",
+      "bytes": 12533,
+      "sha256": "562e09cca0b75ed260f3f9a91f23efc6ec3e27ca7a6e90015ad66f9b5c21858f"
+    },
+    {
+      "path": "learning/01-python-api/builtin-exceptions-usage.py",
+      "bytes": 438,
+      "sha256": "be112f3a160fbba32f30ec90310d88ec630b443d3b31afd7686f3595a354be2d"
+    },
+    {
+      "path": "learning/01-python-api/class_init_and_entry.py",
+      "bytes": 190,
+      "sha256": "72e3159eaba287273e0c1b51be91d109c0806f96b15aaa08d196b8eff60b1ac9"
+    },
+    {
+      "path": "learning/01-python-api/mindmap/VERIFICATION.json",
+      "bytes": 238,
+      "sha256": "1af590b0bab51da422f35af24494c227cd9b6efc6727e2fddf231cbe7d4a4026"
+    },
+    {
+      "path": "learning/01-python-api/mindmap/build_mindmap.py",
+      "bytes": 22697,
+      "sha256": "e7b438d9b1711bf69544ca533058e01d8a28e0ab0cace88cc4cce8ebe6606847"
+    },
+    {
+      "path": "learning/01-python-api/mindmap/概念地图-文字提纲.md",
+      "bytes": 17711,
+      "sha256": "9fb39e53dd92a97a24e5887a45e3888d313fa338f5a8e6356b9db68cb356582c"
+    },
+    {
+      "path": "learning/02-deployment/PLAN.md",
+      "bytes": 8988,
+      "sha256": "39356fb735e2e4d8dcb0ede1b18391b3fdbcfc5cbf99a2d9bcdb7fb19a510cee"
+    },
+    {
+      "path": "learning/02-deployment/PROGRESS.md",
+      "bytes": 14120,
+      "sha256": "4ff8c71d85b742c3e5c43e1a4c11ecf8e23da6c32b0be19f0edfeb4e4e579464"
+    },
+    {
+      "path": "learning/02-deployment/READING-INTEGRATION.json",
+      "bytes": 166,
+      "sha256": "74e2443c4436e11e9f16fcd53f8448657c6a204ff577be5bf8e3db4b7304b412"
+    },
+    {
+      "path": "learning/02-deployment/START-HERE.md",
+      "bytes": 4034,
+      "sha256": "89adf91b0fee078262484538513b01fbea7cc5ce307aec6a0039ae0695f0b3c8"
+    },
+    {
+      "path": "learning/02-deployment/VERIFICATION-results.json",
+      "bytes": 13664,
+      "sha256": "ac57ac36e6e18146ba721fa7b1e26b356654db2539574db57a6b3e674cd9eea0"
+    },
+    {
+      "path": "learning/02-deployment/VERIFICATION.md",
+      "bytes": 7068,
+      "sha256": "473641a737dbc196ceb9e7ebfb27a26b0fa14c625d515ac8597ed0eeb3d4bf3a"
+    },
+    {
+      "path": "learning/02-deployment/env-lab/balance.txt",
+      "bytes": 6,
+      "sha256": "79c1d5019b67b59a15398d40bc404700cd0d15ede31fa086fe64b699f367e7e3"
+    },
+    {
+      "path": "learning/02-deployment/env-lab/check.py",
+      "bytes": 304,
+      "sha256": "0d47c10000482017101f83d2c5b129a4a82b23613889bb23b5606f732432f05b"
+    },
+    {
+      "path": "learning/02-deployment/log-lab/query.log",
+      "bytes": 414,
+      "sha256": "12d2fb8c13e257faf94cbeb90ce29e99077d25777c70e94c32014970f8d2b7cf"
+    },
+    {
+      "path": "learning/02-deployment/reference-history/2026-11-04-powershell-superseded.md",
+      "bytes": 3871,
+      "sha256": "e7b823a953b45a034ab0d56bf8a6c761d690d862042fd022d168ca8a11ce0804"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/.dockerignore",
+      "bytes": 39,
+      "sha256": "f9f3a98c4da69e0e60cf1eb8b329881a03ed233919c00a045322e13872a6a312"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/.env.example",
+      "bytes": 59,
+      "sha256": "e9af5ec80a3dd562e4a396bd5fc85b9fbcaa268944d72e2156750c850e5985b8"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/.gitignore",
+      "bytes": 37,
+      "sha256": "ee59412b692c4311d503b86471c478d5050c1d07b9f11159b3e5fd68a7e794ee"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/Dockerfile",
+      "bytes": 144,
+      "sha256": "cf2bf57276b7b7ba2af26f2ef2865f6d2724a41174186d5a861365c1eb739d9f"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/README.md",
+      "bytes": 921,
+      "sha256": "1f43fec8e27e9ce95f7e61a13fd8ac74894a64ac9ef5b01ccf0b62c5f7ecb21a"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/compose.yaml",
+      "bytes": 210,
+      "sha256": "59dfe9e27bb6311cc3519702f20342b64ac97c736091edb2e6388f72dd8b85ed"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/data/balances.json",
+      "bytes": 27,
+      "sha256": "c89b8115cf28fed4155c28516f4339bd5c37072a3f8ab2f67e5ecd9e069c49b1"
+    },
+    {
+      "path": "learning/02-deployment/service-lab/server.py",
+      "bytes": 2690,
+      "sha256": "b7063db3321050ff36e0a647cbfc1c06677fe953d1a3f992434f3865441ecc37"
+    },
+    {
+      "path": "learning/02-deployment/terminal-lab/README.txt",
+      "bytes": 335,
+      "sha256": "862fe7ae98a2b09a63aedf0a4ac1bb5484963c14a3a4f0c0068e3d6d6f9366e7"
+    },
+    {
+      "path": "learning/02-deployment/terminal-lab/data/balance.txt",
+      "bytes": 11,
+      "sha256": "6ad0fd10427c921b6aa313330cf2fe1a84c3a6ef472fa7eaf709bf44daae9d28"
+    },
+    {
+      "path": "learning/02-deployment/terminal-lab/main.py",
+      "bytes": 337,
+      "sha256": "14071330501b7b2dd64f745eb2519181918f8c5f0fe3fdc46db78fe045eee1d4"
+    },
+    {
+      "path": "learning/02-deployment/verify_examples.py",
+      "bytes": 10038,
+      "sha256": "a3044bbc30cacb806df93a1e98f4e7c842c9c428f7de8e7050bc1f228bed769f"
+    },
+    {
+      "path": "learning/02-deployment/学习笔记-含02-06整理.xmind",
+      "bytes": 357354,
+      "sha256": "5db8e9d89bbb6838b3d04a52e74a77f0692fa0f330a32d31710d278b53889892"
+    },
+    {
+      "path": "learning/02-deployment/学习笔记-整理前备份.xmind",
+      "bytes": 345081,
+      "sha256": "2fba80fe9fef945ceb76bb9feed9a23d5db023cb7f1878a7659aba32d151e2bf"
+    },
+    {
+      "path": "learning/03-llm-tools/.gitignore",
+      "bytes": 73,
+      "sha256": "8c992ea1385a9d6e6f191f1a1059ee0ed2cb4bfc2dcdfc8f7147aa0e6f7ce3cb"
+    },
+    {
+      "path": "learning/03-llm-tools/PLAN.md",
+      "bytes": 1812,
+      "sha256": "998ce26338c34541a1fad2f477c7843795d91516dfba14c25eddd395a2916159"
+    },
+    {
+      "path": "learning/03-llm-tools/PROGRESS.md",
+      "bytes": 9449,
+      "sha256": "cc5cd8bcf9444aafd3f313539b9146b1d39d20aaf2085a2cf7b90bd1376dc144"
+    },
+    {
+      "path": "learning/03-llm-tools/PUBLICATION-results.json",
+      "bytes": 803,
+      "sha256": "e7da9c30e2269705a9c527248bf0c0b4dad43657aa9b77ace649de1d02eb710c"
+    },
+    {
+      "path": "learning/03-llm-tools/VERIFICATION-results.json",
+      "bytes": 1525,
+      "sha256": "8d1f14f3c2b5537d650fa00ca2710ea401400fb2cc946577be71b355ea5fe64a"
+    },
+    {
+      "path": "learning/03-llm-tools/VERIFICATION.md",
+      "bytes": 7455,
+      "sha256": "13ffc3d4b8720eb25dda65cc512b0d8d30b94af47277257a74b13d6537e88fde"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/.env.example",
+      "bytes": 312,
+      "sha256": "d348100896f29653c83c1298c955b36a0f6aea70cb220e1f0c9a46da0c3d551b"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/01_call.py",
+      "bytes": 487,
+      "sha256": "12a1efcf58a11b0ca7324e0e84dd7ee7b82c2a85423c578d669ba2e4b3bb8e38"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/02_messages.py",
+      "bytes": 976,
+      "sha256": "2aa1c1403cf43c39b24a4a8d2631718c512623e2f68f9d1a79083c3059a2f5e1"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/03_meeting_extract.py",
+      "bytes": 1713,
+      "sha256": "5234e5233e80d90bf40709ec98a2946c5b5ae9a48857967d953d0f94adf972b5"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/03_structured.py",
+      "bytes": 511,
+      "sha256": "294787b272b93829a3c55fe8758a16d465891189d9097a494c7a2ad130c6dab0"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/04_coffee_tools.py",
+      "bytes": 4385,
+      "sha256": "082efc6ca6b4daae84efe7a1fcc13d197877cff9c6b4566b1813edc8c53dc9f9"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/04_tool_loop.py",
+      "bytes": 1829,
+      "sha256": "3c6925d561a367434cbc2170f6d4c6acb929c7a918d49156dcc8fa5e4d8aa7ce"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/05_agent.py",
+      "bytes": 1335,
+      "sha256": "e7566ae241f75d2d371850a7c4d8df2a906361b798a2f8320c4cdcffed5a6234"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/06_runtime.py",
+      "bytes": 1558,
+      "sha256": "7c0e29dc08d1d3e7f33a04c23d4370d0e7a6dadbd0dc09c7d2c4fc8144177f6f"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/07_review.py",
+      "bytes": 600,
+      "sha256": "d0a3e23ee33382e250ca3c200ad85f759f40b9243e0dc7ed6df18cb140a0a727"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/README.md",
+      "bytes": 1788,
+      "sha256": "a1e1ccaee06ba4f065df83fbe439bae6552461d6d095ef93e9fa630e99d1dad5"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/business.py",
+      "bytes": 1261,
+      "sha256": "52e9741b92636570746fb568b969caf980670950af3d401b3fe09d9736b132ab"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/intent.py",
+      "bytes": 690,
+      "sha256": "baec257cccb6ee5faa3ed74602a22cfd48c56f37ea73bfcc275558afc9fb69d2"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/mcp_client.py",
+      "bytes": 713,
+      "sha256": "d6364fe45ec49952a9b9f3c8f3fc61d1130767d1eff6221b2eba95ac96b75e50"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/mcp_server.py",
+      "bytes": 467,
+      "sha256": "a5306d0b17ccad023688635dfb8507ff0244837c9d1b2ebc98f2051a2cfb7d75"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/model_config.py",
+      "bytes": 872,
+      "sha256": "48a0aa93fe375e51b9a4cc37ca4acfd392077fd00b2dc1e0f579b4c577f31bdd"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/query_tools.py",
+      "bytes": 670,
+      "sha256": "1b1e32ac1883b48f80ea857c883a8fe516ab0eb76f46122246ab16f650c005e7"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/requirements-mcp.txt",
+      "bytes": 31,
+      "sha256": "fd6555b4a243c5b2ac257c494ef67679fa834a0cf1f3cd928385b5bc105fdda5"
+    },
+    {
+      "path": "learning/03-llm-tools/lab/requirements.txt",
+      "bytes": 72,
+      "sha256": "c8edd9d1e711c75cce33993c27acc78360c04746f0580656de9d28125d2f7ccf"
+    },
+    {
+      "path": "learning/03-llm-tools/mvp/.gitignore",
+      "bytes": 32,
+      "sha256": "5e1cf304a7ca77fc29022b578c1660abdcda1e038b3e5dbe71794eb3b2ff9510"
+    },
+    {
+      "path": "learning/03-llm-tools/mvp/README.md",
+      "bytes": 2323,
+      "sha256": "d80a21592309a60a038fb94d7d429f8f8d71bd0ebe632cd0f3336e3ad0eece66"
+    },
+    {
+      "path": "learning/03-llm-tools/mvp/main.py",
+      "bytes": 5762,
+      "sha256": "0b58710b2459340026d4f036e8ce65a81abd41eb1315e16400efcdac43fd3a15"
+    },
+    {
+      "path": "learning/03-llm-tools/mvp/requirements.txt",
+      "bytes": 41,
+      "sha256": "10c6a1b49e0bfc500bdb832d53f734ba99242620b299d47be10116ca2900cb11"
+    },
+    {
+      "path": "learning/03-llm-tools/mvp/settings.py",
+      "bytes": 2031,
+      "sha256": "1dcf2758dcfc92705211efd31aa602e717d0a2143bce5eaf036b2150dd3c7cb1"
+    },
+    {
+      "path": "learning/03-llm-tools/requirements-verified.lock.txt",
+      "bytes": 1128,
+      "sha256": "eb9964f519be2504f044f42a0bcb9f60c90188d45b847037f90410b37ed500f5"
+    },
+    {
+      "path": "learning/03-llm-tools/verify_examples.py",
+      "bytes": 12786,
+      "sha256": "8967f259fa91d7c28b7b9b400b576d52556bec28a6896bfd86e5f18a1363d243"
+    },
+    {
+      "path": "learning/08-database/PROGRESS.md",
+      "bytes": 3250,
+      "sha256": "59f3e8fffeadb90a8abb86b2db4273970f23e77879ac4a7a388b1f5ce0a22913"
+    },
+    {
+      "path": "learning/08-database/VERIFICATION.md",
+      "bytes": 2398,
+      "sha256": "f208f288803b82c8af17d8a826e09323f4f72643b3bb4f29c78347a579cce64d"
+    },
+    {
+      "path": "learning/08-database/ch01/README.md",
+      "bytes": 1095,
+      "sha256": "2a832809951e68b4bb960e08b6974205b6de62e6c66abaf3c0982ea01995d791"
+    },
+    {
+      "path": "learning/08-database/ch01/balance.sql",
+      "bytes": 486,
+      "sha256": "15faadca2a906b429002aefce1e398b263b4bad178e6439ffe2cdc749d57bee9"
+    },
+    {
+      "path": "learning/08-database/ch01/erp_ch01.db",
+      "bytes": 36864,
+      "sha256": "e7b6374007c10b5261d26d5ac6c35d870d9b4deb757369ae7dc2187a4813b37d"
+    },
+    {
+      "path": "learning/08-database/ch01/peek.py",
+      "bytes": 313,
+      "sha256": "2a511b9ce56f24916cf10e1f55c0e4c5f6249c1001b98ce5d3fe6e5bceaed602"
+    },
+    {
+      "path": "learning/08-database/ch01/query_balance.py",
+      "bytes": 1261,
+      "sha256": "99d9e0fab1b59f7496454b767a2723fe7b8b18961461730440492ca128c0d3f0"
+    },
+    {
+      "path": "learning/08-database/ch01/setup.sql",
+      "bytes": 1522,
+      "sha256": "bce3e584a62dd4d52d1afb03a95566543f063cc61dd54bb0a9226ed7d9e84fd7"
+    },
+    {
+      "path": "mkdocs.yml",
+      "bytes": 799,
+      "sha256": "cdc7f7c6d843d7cc6c8e3f7f9b35c17eab4059536d0fa94222aa070ba02a0e6b"
+    },
+    {
+      "path": "requirements-docs.lock.txt",
+      "bytes": 602,
+      "sha256": "61c7d826ac8300a64d7b56b495dde560b666c646503d48e8e1a9206a0e28d4a9"
+    },
+    {
+      "path": "requirements-docs.txt",
+      "bytes": 61,
+      "sha256": "cb8b0805c58136d855b8e864e6123e050f12d26f32f223fd1e57c6461e7ff0e4"
+    },
+    {
+      "path": "reviews/02-independent-checks.json",
+      "bytes": 2648,
+      "sha256": "06d86cc102e402a43b7eb18c0270383d545e7997fd26aba137d29c0d2817f1d4"
+    },
+    {
+      "path": "reviews/02-textbook-review.md",
+      "bytes": 4991,
+      "sha256": "c90fd5be47bb1545b70cd372866a525db5941062b3be07b47cf39027c0eaeea1"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/REPORT.md",
+      "bytes": 12336,
+      "sha256": "2eda658061cae4704e0991de70c6b8ac6008d8dce90ce1b4509cc4c6e065d573"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/community-source-index.json",
+      "bytes": 12505,
+      "sha256": "43f07a72605c2a3c507844b8ee189765650a68bb527587e3067576c07c7ee433"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/official-source-index.json",
+      "bytes": 66308,
+      "sha256": "68fcab9be359a26b428b4e4bc73a54e031cd83ab80eaadf2484d75b9283603bd"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/official-tree-selection.json",
+      "bytes": 22870,
+      "sha256": "f6700bc662c8b00e644bdec2c7029356d601e1844189678edf448cdb6ab216ec"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_desktop-fork.md",
+      "bytes": 22610,
+      "sha256": "ad64b1dd99441559d6ac96e6c9bab74f9e37bf900275a277b71792921f91ebfd"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_ds-bot.md",
+      "bytes": 15777,
+      "sha256": "27d809fb7c344db15ac59ad82e10ee85826363c5d352f989537b036125537c84"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_fish-world.md",
+      "bytes": 48678,
+      "sha256": "ee69b86f6f82ea72b545d7d9c5c53cb64bfb60800d962a91d4f3a01de7881d88"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_fishtank.md",
+      "bytes": 2650,
+      "sha256": "e5ee50cd206dfa3700bb16903a372cfeecb9dea9f715dc1393dc4153c3126496"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_lark.md",
+      "bytes": 6861,
+      "sha256": "46a9de32829849111e483379ee7683407e5af2114bca28d9a0cc1aab8cd9fa5a"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_memory.md",
+      "bytes": 20092,
+      "sha256": "b7295fd3a3ffe8b9d90287f06f50aa4b8d4bb413a679c7fe552d64b6fe8e3f61"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/community_remote.md",
+      "bytes": 19439,
+      "sha256": "91958310030f38f82c0fc3275ebba246bb7c5f963f508a066cddc277e0f99f58"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_apps__desktop__README.md",
+      "bytes": 88144,
+      "sha256": "14646f67a56e5c80b8f418ffee4deaf38ada7aece291e4a2371d6de746bf8743"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__subsystems__skills.md",
+      "bytes": 24977,
+      "sha256": "aca8d782ed0dee222851fc1a7e913a7c5f420f70a2f5d3ac9fbd238afd1082ee"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__guide__github-review.md",
+      "bytes": 4917,
+      "sha256": "ddd0d97be58ae9df110412bef48bc46a058821f8b8c02d2739d23abf16062c43"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__guide__mcp-memory.md",
+      "bytes": 6695,
+      "sha256": "cc7a1215afb0b13d28fe21dda8913ad15ae7ddb37e71e1f690e05d729696d7f4"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__guide__plugin-market.md",
+      "bytes": 9781,
+      "sha256": "d2a0fed485097c9cb9d39207dacf08eb5ac10e0edfc9e18bf28c07cf66089cb1"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__guide__python-sdk.md",
+      "bytes": 9602,
+      "sha256": "004ebaf4f4f5407a59ebff1b9f5e64588f2e613aa3c7ddfbfa18d4e2f68f0e45"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__guide__schedule.md",
+      "bytes": 18445,
+      "sha256": "87f4318d4ed6dc9bcf1583f8dce1c40b0dd4e3cc5acc2dbee8389743cc3ced3a"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_docs__user__index.md",
+      "bytes": 159,
+      "sha256": "a5e54b9edf4d206490af17eba83810a8263ff0e17a330de92094392acb016e4f"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__browser-use__README.md",
+      "bytes": 1098,
+      "sha256": "324c2b4a4faf04932bd63b1678c60f074473edca2e7741c108047376f0a7e8f7"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__computer-use__README.md",
+      "bytes": 1431,
+      "sha256": "87febed4eb826bb48bfee4c55f6c01d83e7984f4a8bd7f6f130c5c27df76b437"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__experimental__cua-macos__README.md",
+      "bytes": 45169,
+      "sha256": "34287abc1a3c22447535fcaeee273ea32abfaa793876191592498d9adcd01aae"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__goal__goal__README.md",
+      "bytes": 11856,
+      "sha256": "9ee42f6d0b3d196764a391923a4105801f3a014e24117b431c32700134917548"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__plan__plan-mode__README.md",
+      "bytes": 14106,
+      "sha256": "52127a3cfed26c9054d63cde1b633b8457f93c00cfb7ac74023ca1324ce4dc37"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__skill__skill-office__README.md",
+      "bytes": 6857,
+      "sha256": "55f8c4d0767f1aa5368d90c66d3c0f0bbd57dfe707e1258d2904e36b9774be6f"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__subagent__README.md",
+      "bytes": 3092,
+      "sha256": "4d464e32d4747451849fee100a45ca1bdafb16bb5d330a1ad651f23ad2d9d48a"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__team__agent-team__README.md",
+      "bytes": 15195,
+      "sha256": "06951906917a3f0e43d0793162b5c65712016e4e2b9ed6b9e911ac1c30b8ee31"
+    },
+    {
+      "path": "reviews/dsh-research-2026-11-08/sources/official_packages__web__tool-web__README.md",
+      "bytes": 22058,
+      "sha256": "b627e50661584d5cddee9bd98e4ee65a6f7b522ec2317f7774b2254ec0f1d5e4"
+    },
+    {
+      "path": "scripts/serve-docs.sh",
+      "bytes": 291,
+      "sha256": "ba5fcd6df06359c1387a83c79db9cad257622ef39e17ee26126a492dda3c2710"
+    },
+    {
+      "path": "templates/CHAPTER-TEMPLATE.md",
+      "bytes": 2068,
+      "sha256": "b94f87e7d86c654f2b8a11340894edfd8fb96ab60611f9490f9c92a82d97788e"
+    }
+  ],
+  "excluded": [
+    "learning/.DS_Store",
+    "learning/02-deployment/preview.log",
+    "learning/03-llm-tools/.venv-verify/",
+    "learning/03-llm-tools/mvp/__pycache__/",
+    "learning/03-llm-tools/lab/__pycache__/",
+    "learning/01-python-api/__pycache__/",
+    "learning/01-python-api/.venv-api/",
+    "learning/01-python-api/verification-logs/",
+    "learning/01-python-api/.DS_Store",
+    "learning/01-python-api/api-lab/__pycache__/",
+    "learning/01-python-api/whole-example/.idea/"
+  ],
+  "status": "snapshot_prepared_target_not_restored"
+}

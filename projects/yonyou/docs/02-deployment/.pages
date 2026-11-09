@@ -1,0 +1,15 @@
+title: 02 Linux、Git 与部署
+nav:
+  - index.md
+  - 主线阅读:
+      - 05-environment-and-permissions.md
+      - 06-processes-and-ports.md
+      - 08-delivery-lab.md
+  - 基础与操作查阅:
+      - 01-terminal-paths.md
+      - 02-files-and-logs.md
+      - 03-git-changes.md
+      - 04-git-collaboration.md
+      - 07-ssh-and-transfer.md
+  - 后续选学:
+      - 09-docker-compose.md

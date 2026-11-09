@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-08",
+  "python": "3.12.14",
+  "versions": {
+    "langchain": "1.4.9",
+    "langchain-core": "1.7.6",
+    "langchain-openai": "1.7.4",
+    "langgraph": "1.2.20",
+    "pydantic": "2.14.3",
+    "mcp": "2.3.0",
+    "openai": "3.46.0"
+  },
+  "checks": [
+    "business:balances_zero_missing_ambiguity_source_date",
+    "validation:tool_schema_intent_extra_fields_execution_precondition",
+    "configuration:missing_settings_and_explicit_protocol",
+    "configuration:chat:actual_factory_and_simulated_transport",
+    "configuration:responses:actual_factory_and_simulated_transport",
+    "01_call.py:actual_main_with_simulated_HTTP",
+    "02_messages.py:actual_main_with_simulated_HTTP",
+    "03_structured.py:actual_main_with_simulated_HTTP",
+    "tool_loop:ok:execution_and_matching_return",
+    "tool_loop:not_found:execution_and_matching_return",
+    "tool_loop:invalid_arguments:execution_and_matching_return",
+    "tool_loop:unknown_tool:execution_and_matching_return",
+    "tool_loop:model_call_limit",
+    "agent:real_framework_two_tools_and_final_state",
+    "agent:scripted_ambiguity_clarification_route",
+    "agent:graph_step_limit",
+    "runtime:async_success_and_timeout_classification",
+    "runtime:partial_stream_not_marked_complete",
+    "runtime:one_sdk_retry_means_two_attempts",
+    "mcp:actual_stdio_discovery_success_missing_invalid_and_cleanup"
+  ],
+  "paid_model_requests": 0,
+  "scope": "Local scripted HTTP transport and actual local MCP stdio; not real provider/model acceptance."
+}

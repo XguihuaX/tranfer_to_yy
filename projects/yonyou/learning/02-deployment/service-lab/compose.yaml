@@ -1,0 +1,11 @@
+services:
+  query:
+    build: .
+    ports:
+      - "127.0.0.1:${HOST_PORT:-8029}:8028"
+    environment:
+      QUERY_CURRENCY: CNY
+      HOST: 0.0.0.0
+      PORT: "8028"
+    volumes:
+      - ./data:/app/data:ro

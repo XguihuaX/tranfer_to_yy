@@ -1,0 +1,10 @@
+nav:
+  - index.md
+  - 00-products
+  - 01-python-api
+  - 02-deployment
+  - 03-llm-tools
+  - 04-rag-data
+  - 05-agents
+  - 06-finetuning
+  - 07-delivery

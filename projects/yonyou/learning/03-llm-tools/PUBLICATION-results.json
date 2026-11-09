@@ -1,0 +1,25 @@
+{
+  "pages": 9,
+  "links_and_fragments": 1208,
+  "folded_blocks": 10,
+  "python_blocks_parsed": 14,
+  "full_source_excerpts": 13,
+  "strict_build": "passed",
+  "live_HTTP200_pages": 9,
+  "preview_restart": "Old process positively identified as this project MkDocs; restarted and current index content confirmed.",
+  "visual_browser_check": {
+    "status": "passed",
+    "date": "2026-11-08",
+    "pages": [
+      "index.html",
+      "04-tools-loop.html",
+      "01-model-call.html"
+    ],
+    "observations": [
+      "Eight-chapter navigation and current introduction visible",
+      "Full tool-loop disclosure expands and renders source",
+      "First chapter prose, links, headings and sidebars render correctly"
+    ],
+    "deliverable": "http://127.0.0.1:8765/03-llm-tools/01-model-call.html"
+  }
+}

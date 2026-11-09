@@ -30,7 +30,7 @@
 
 ## 全局规则与排除项
 
-`anti-defensive-writing` 专用于论文写作，已排除。用户询问的减少防御性思考规则来自旧电脑 `~/.codex/AGENTS.md`，本轮向用户展示原文，没有改写该文件，也没有把它安装或覆盖到新电脑。
+`anti-defensive-writing` 专用于论文写作，已排除。用户要求迁移的减少防御性思考规则来自旧电脑 `~/.codex/AGENTS.md`，两段原文已保存在 [configs/codex/AGENTS-fragment.md](configs/codex/AGENTS-fragment.md)，恢复时按[合并说明](configs/codex/README.md)处理。旧文件保持不变，目标电脑尚未合并。
 
 此包未包含 `.env`、登录文件、私钥、MCP 账号配置或工具插件缓存。目录复制时排除了 Git 元数据、虚拟环境、node_modules 和 Python 缓存；对常见凭据格式和敏感文件名进行了检查，匹配到的 API Key 示例已核对为占位内容。
 

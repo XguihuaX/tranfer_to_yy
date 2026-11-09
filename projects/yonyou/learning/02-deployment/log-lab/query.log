@@ -1,0 +1,5 @@
+2026-10-31T09:00:00 INFO request_id=r001 customer=C001 status=200 amount=12800
+2026-10-31T09:01:00 INFO request_id=r002 customer=C002 status=200 amount=0
+2026-10-31T09:02:00 WARN request_id=r003 customer=C999 status=404 error=customer_not_found
+2026-10-31T09:03:00 ERROR request_id=r004 customer=C001 status=500 error=data_unavailable
+2026-10-31T09:04:00 INFO request_id=r005 customer=C001 status=200 amount=12800
