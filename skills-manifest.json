@@ -1,0 +1,1814 @@
+{
+  "date": "2026-11-09",
+  "status": "packaged_not_installed_on_target",
+  "skills": [
+    {
+      "name": "langchain",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/langchain",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d47635059ac1a1a369ee6169f68f1d02e95ca201f2394a902fe66a30b1e35e65"
+        },
+        {
+          "path": "references/agents.md",
+          "sha256": "724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555"
+        },
+        {
+          "path": "references/integration.md",
+          "sha256": "e98c59ee6d60bfe27d7971cc615d86b3bf56ceab7e82263145c367cb8b5d3157"
+        },
+        {
+          "path": "references/rag.md",
+          "sha256": "4a4cb97d383fd23f4a4558ec5cf2885be1a74bf176c2ab708770fcaedf0b153c"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "llamaindex",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/llamaindex",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a603d319831beb1e46efd9299532b2462ee0d0cf01d7aa8928bd21763a3d9760"
+        },
+        {
+          "path": "references/agents.md",
+          "sha256": "755be6104ccb5acce5b61efe1753d6380a8fbeef136fa1381fa4325c6d6cb15a"
+        },
+        {
+          "path": "references/data_connectors.md",
+          "sha256": "8ec7804e4e3b2c1aace849ee8ce1176ee51205b8e55507115fc16cb795db99d6"
+        },
+        {
+          "path": "references/query_engines.md",
+          "sha256": "250298c4c3d7d9a7900d81080d4f5a2ba44747c9add5d9ae2768a85127af6c84"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "dspy",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/dspy",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "cd01cee93a2228c199c23e77047e4444b0a6eeddd12dcf14104ca2a5de3fa8e2"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "a617b7ed15a81fc460eb8e98d19565ce843828554b926265bc8571721258d2d0"
+        },
+        {
+          "path": "references/modules.md",
+          "sha256": "a2a1ba76f0b808c40d8d64be689954538ea00e1d53cd413e2a4951758b5aed6f"
+        },
+        {
+          "path": "references/optimizers.md",
+          "sha256": "ddf19b520df9741b7f3b5e5c9993a1c381d282608b4e3b2b9359a6a0b8595a78"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "crewai",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/crewai",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8760f968af1118e3dde5bc8443613be5ef7046a5639d26079d596fcf6d2483ff"
+        },
+        {
+          "path": "references/flows.md",
+          "sha256": "bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2"
+        },
+        {
+          "path": "references/tools.md",
+          "sha256": "fd62a6c2c1ba08fc921cab5dd519c476e38e43f16cbfbba32fd000386ed454f5"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "9c55aa955aebe83322bf50e92181ff266f2af9374affbda27dd34e8de79d6fe2"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "autogpt",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/autogpt",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "4b16c070da9966e3e71a8f5324d7b1b2d4ddd68a3df8b27305b1a19b841f62b3"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "af763d0e0c0a0120a8b2ab2534af34697b8d8183c907c271e6783bf5c6f61500"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "instructor",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/instructor",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7be950beb848b05aa4f41e61cfe27b162cad4a4d029d0abe13401aa743bab794"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "77da5ba3ffc15c9acd01ecd9d35090e8cdda5df7990f840024ae50d291580ea8"
+        },
+        {
+          "path": "references/providers.md",
+          "sha256": "5482459ae8d27494b6848b9bbf4fac8c55f810bc7829ec29368ba15e5e67db6e"
+        },
+        {
+          "path": "references/validation.md",
+          "sha256": "83039b93f697c72141e618210d9acdd9fa50654b22cc810b3eff23fddbd7dfe4"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "guidance",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/guidance",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2c7028001bf36a8a6bc1020d646a1fbad29c93f92f7706c437bde858e9616c71"
+        },
+        {
+          "path": "references/backends.md",
+          "sha256": "cf7ac97bcca4dc4208385038337bd23e68c26789f6c1e5d14e83f7f5aa31fd01"
+        },
+        {
+          "path": "references/constraints.md",
+          "sha256": "d50d0d4eab3a04ff4aa1e0bcd2c67717b25ff4251346095c29fa8d1841e9cebd"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "08701c3fa2067a0c58359c10dcfdcd50ff1d2c8e8d6b88a42679bb80d5853361"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "outlines",
+      "category": "LLM应用与结构化输出",
+      "source": "~/.codex/skills/outlines",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1a797a1bb4d7fae753e4fbf1895beb36f63b8e75c7fba50e940cd1ef1a372574"
+        },
+        {
+          "path": "references/backends.md",
+          "sha256": "b2e1698429b8c0a2425493a1d7f82cc36623d40503e8d414b5d66bd0b99167a1"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "1055815c239a3b9f266f0c80a2eeb0e94c4e1275f243aab4807a3a74ab684431"
+        },
+        {
+          "path": "references/json_generation.md",
+          "sha256": "5392ed2d69970778ff18b81b510f5c3f3f4fae00856bd967dd6b596357cd117e"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "chroma",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/chroma",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "834733e201d4f7d6c20089c93d13c945d7a62b6581d55631546a5ad74b9ec164"
+        },
+        {
+          "path": "references/integration.md",
+          "sha256": "fe82af7e33a228d2d2f80c73b3e096937c3a49f873035d86d0e9e6ba6034f5fe"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "faiss",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/faiss",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "79a494b9212c73810d53527800c69f80acd6aa1907fca8c614c69583cac76e89"
+        },
+        {
+          "path": "references/index_types.md",
+          "sha256": "aa6cb4267ad3a8bcc1d245e77c7312ced189d21b67b3d590d2e93b37e3ef3faf"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "qdrant",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/qdrant",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3a45489baf49c375883694ec78d6a9b283533a352e8d47cf630332faff83a231"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "49f8216f976db69813901f32f4dc0b49240ec62a8336db5819eb0647d99eafa7"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "07fbbe57fc0b11d8004e514bc482a32bf49a168315ededfd56cf941f7ee988f1"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "pinecone",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/pinecone",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "69b0566e8d749acdad2a805ed6980947e5458c96b41bd405e520f2006ff0e7fb"
+        },
+        {
+          "path": "references/deployment.md",
+          "sha256": "20b7582d8d8a9fa73b2a7d8dfd76bade640bf0a8683de349224791c33e3855c3"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "sentence-transformers",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/sentence-transformers",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "fca19457be4e78f0e3689284d4fbde649ddf9af0d3bba52d2ac1fb470a4c1bd8"
+        },
+        {
+          "path": "references/models.md",
+          "sha256": "42c87086def085aed177b0758029b429c65e67cec0018e068f0f92c958836590"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "markitdown",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/markitdown",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8470f358612ab26f2d230bbe4176db01dfb7e456839270cfa32b3d5e83ec300b"
+        },
+        {
+          "path": "references/api_reference.md",
+          "sha256": "dde39fac60db56df1d6864e532883d36fa472648243299695cc0e6bb195a2ff9"
+        },
+        {
+          "path": "references/cloud_and_ocr.md",
+          "sha256": "9ef87a18f18aabe9e2ed1d6d3cf87c440614ab9ae60e5ca42513ac8a4fca5e49"
+        },
+        {
+          "path": "references/file_formats.md",
+          "sha256": "1fc769efa7f35737e8ecc6e50c7c20fddb20de4753002821c12bf9a9de61f623"
+        },
+        {
+          "path": "references/mcp_and_plugins.md",
+          "sha256": "13ee15d399b8ad02df799ecbf0591c75b5d6ab89bce62d4a5856f4308bb88192"
+        },
+        {
+          "path": "references/migration.md",
+          "sha256": "fc73b21a5b73bc61f5eafa32d16eb8b3620c38602c59aedc9bbf593d80a441ef"
+        },
+        {
+          "path": "references/security.md",
+          "sha256": "cdec8dcb138870b28645780709a4c5f19224ba80981ecf8dbe4e98bac9504383"
+        },
+        {
+          "path": "references/workflows.md",
+          "sha256": "6598e6729379fe4860d392009f5343f0afca4ae9c30ba15a9332340b1e95fbfe"
+        },
+        {
+          "path": "scripts/batch_convert.py",
+          "sha256": "4250166fc476be8793149e1ef778b619719ea87557b5287e48db5e6b53d3fd62"
+        },
+        {
+          "path": "scripts/convert_literature.py",
+          "sha256": "6c28a9b005a252bcfbab4e1a637129f7be30f9f154bb7bb5adb67cf5361b0aed"
+        },
+        {
+          "path": "scripts/inspect_installation.py",
+          "sha256": "7821524bcf1b148f5932268ba54394831172cdecc730bbdefa6f6d07eafa4d08"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "huggingface-tokenizers",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/huggingface-tokenizers",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d2ff3f9eed2cb8e15cb98e8e2398ca359325a32fd5d16ebfe0d115d7624583af"
+        },
+        {
+          "path": "references/algorithms.md",
+          "sha256": "b26bb48dca45c57797e23ee8d3afa3c602ffbb243a47c0a9a171f3f6828a08ed"
+        },
+        {
+          "path": "references/integration.md",
+          "sha256": "9e9c3f938424434da8e7b962ff536b2b3b4b585a0dabc5c9292a12c2a1682349"
+        },
+        {
+          "path": "references/pipeline.md",
+          "sha256": "3fe8a70a27b1bf9aa52f6320a4da569c510fcf602e026cfc57a3f1518175cfc6"
+        },
+        {
+          "path": "references/training.md",
+          "sha256": "9732225aacd7dacd83063a1c206e8566793fe41c628fd32f827e3489246dfcfe"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "sentencepiece",
+      "category": "RAG与数据接入",
+      "source": "~/.codex/skills/sentencepiece",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "47b1d10f419a51a400010bcd80d99a8bdb5c4510fc3e57fe9bc9be7efa6a48f8"
+        },
+        {
+          "path": "references/algorithms.md",
+          "sha256": "6927a326b067ed3aa25712a33a2601e24704f55d2146e451efb2a4619bf4fb52"
+        },
+        {
+          "path": "references/training.md",
+          "sha256": "d1061c220d74d4e8889ebec06f6abe99a0ff3f6706435fff37b58c3eaf2931a9"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "llama-factory",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/llama-factory",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6adfd1babfbfe2f85e0fcbde518f24a804ebe06afeb8682ce1df395284d6f5cb"
+        },
+        {
+          "path": "references/_images.md",
+          "sha256": "c1fef3c82d902c455353dd873cba30bcdfba779b83b300ce2ac55718fae5a616"
+        },
+        {
+          "path": "references/advanced.md",
+          "sha256": "984d86809194921a64d5738affa3152f6f5e74198e83c39bf4c0807ef977c5f5"
+        },
+        {
+          "path": "references/getting_started.md",
+          "sha256": "ca959ff8b1dd7d4d09c5e6c247dd03d01759391f20fdeb12e03cff2a1f305cf6"
+        },
+        {
+          "path": "references/index.md",
+          "sha256": "d2b9a950f5721809d0bb6c46b35a2a7bf05b3d0b23f600163d4b2ac6ea0418c7"
+        },
+        {
+          "path": "references/other.md",
+          "sha256": "674714380dbc7bcab07a6972e4b8699fd85ac4321144537bc67c305df4fb47ed"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "peft",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/peft",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "acdb318f94624517c8cdb3c925c7a2e8b34c65e8ca02b301777c51eea9f0f73c"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "8663cf75afa2e1048832f680c8594b2709c0205603133ab5e81561697c847659"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "06645be59b9ad0461e837fce5a1b0a7121b19a1353635c04fdf9df5a13578738"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "unsloth",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/unsloth",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ac7f1d1f87d08d7f8713f07c1f6522268b814acea850f97bc986e00f8b461bc3"
+        },
+        {
+          "path": "references/index.md",
+          "sha256": "e0f799b2c5dea599a860ea50ae85eec3d89a2b9a5017511d426fb46c4a4806e1"
+        },
+        {
+          "path": "references/llms-full.md",
+          "sha256": "1c05671e76bb26ab6a23a7c58c564cbdba9c3b1e6a95eaf0104f2baba1302248"
+        },
+        {
+          "path": "references/llms-txt.md",
+          "sha256": "5510ed5b3d3860a72013537e8ef98be7781f32f60369e26803cce597f0394e3c"
+        },
+        {
+          "path": "references/llms.md",
+          "sha256": "b3a2fdaa1627383cda4b21127bac475528febf5207987deca9f0d928947e8533"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "axolotl",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/axolotl",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "9273d534cd6a06612b18418f2cd98f63d1ac9bb780eda511a91800dee48f1dda"
+        },
+        {
+          "path": "references/api.md",
+          "sha256": "fa42d8161bf366de96e8949f57bcd4e8021a332b28f58f379f67dbd09792c8a6"
+        },
+        {
+          "path": "references/dataset-formats.md",
+          "sha256": "08005105153166d0dac4746bed3e3b0ef87d62cb3380ec3288754d40c38d9833"
+        },
+        {
+          "path": "references/index.md",
+          "sha256": "663ea0eeae52868ab221cb5620784d72d3a3fc1775ad9d3b3ef83e4e6e06471d"
+        },
+        {
+          "path": "references/other.md",
+          "sha256": "bff49a43ec3072612eccebb9bbb597e4c6e2083f5aafd77ca57fdf740809e7d9"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "trl-fine-tuning",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/trl-fine-tuning",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d68f78ad741627ce7dcdf2ce78c73c8cf31d23db7d89555e0bdd0cd35c413811"
+        },
+        {
+          "path": "references/dpo-variants.md",
+          "sha256": "c802f74f3f48fcde0e285f97eee90c0209740a953f257b462b6e952d982dc1e6"
+        },
+        {
+          "path": "references/online-rl.md",
+          "sha256": "35e0ad19a8e6a4bc2c1a87e1ab5e2bfe31fb74ba07b1f4b161a1c258e0c44958"
+        },
+        {
+          "path": "references/reward-modeling.md",
+          "sha256": "782edd743d66dec5efd1e7ec48fa23ad857102117a569ddda836b856f56068e3"
+        },
+        {
+          "path": "references/sft-training.md",
+          "sha256": "2e42b55d3327caeab7611f94976bcca315ee1b68a5bf9a4ac437099bb2ab9418"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "accelerate",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/accelerate",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e94cea7a174f395df02d935065fe05db8ecb637c52e443b6380c703963758d7a"
+        },
+        {
+          "path": "references/custom-plugins.md",
+          "sha256": "1b2f1cf5d70a155f7792cad12a466be4315b787fe21e01b36d32bf374693c020"
+        },
+        {
+          "path": "references/megatron-integration.md",
+          "sha256": "69dedcc3c78c197defa86531412541b96a624090c0afd787a967cf865117273d"
+        },
+        {
+          "path": "references/performance.md",
+          "sha256": "559ea051c23773d3a7227610018429a0e12e49795949a6e9adfa91b305182a37"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "pytorch-lightning",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/pytorch-lightning",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7788f93b6324f8d62d0d579a572164d303704b59fc7fefe12497afb75856c453"
+        },
+        {
+          "path": "references/callbacks.md",
+          "sha256": "2940b978bdec21b6f8da54c72d1858015e5ba290f9b05f1a659d67c25860e259"
+        },
+        {
+          "path": "references/distributed.md",
+          "sha256": "c7d183b74a48550541658ace014c6ef8fa15f2c625075369e4ad644ad950ecdf"
+        },
+        {
+          "path": "references/hyperparameter-tuning.md",
+          "sha256": "fb733b9a324d4bb0c941c70b9bb01c59785d53a1827b48db5274520e1eb66e16"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "deepspeed",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/deepspeed",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8c2221b797e650a933800cfa45282a70caca20aaa85cbcece6e16acf1020dc39"
+        },
+        {
+          "path": "references/08.md",
+          "sha256": "94449a6e83e7d7242fe40b242df06295ec6b728ee309438afe2aeed247de06a7"
+        },
+        {
+          "path": "references/09.md",
+          "sha256": "2c63b40f3a68d0d66522fb2de08ae02d2e36e327dd10c93516d113882fe93de2"
+        },
+        {
+          "path": "references/2020.md",
+          "sha256": "e42728566ec2640b8285115fcf87dd4a5b4f28d80e02d9b9a6175959e80cde19"
+        },
+        {
+          "path": "references/2023.md",
+          "sha256": "5d58166d96fe1b56345b235d7247d010a2a2efdc80d85fbadde9da93ee8f3b61"
+        },
+        {
+          "path": "references/assets.md",
+          "sha256": "b7429b54d3ad386e273ec432560bdf5767567137b57ea5463755d250ce1d2708"
+        },
+        {
+          "path": "references/index.md",
+          "sha256": "74eebffee87ea18b50777263b64489b2c6ccfb3ab4cc7b60c931d06169dce6d2"
+        },
+        {
+          "path": "references/mii.md",
+          "sha256": "6f36699cc10518a12d568f512eab0f23aa263c78b51aecb5161bd8c619444a44"
+        },
+        {
+          "path": "references/other.md",
+          "sha256": "137c5ed8f37b09bcc9478581e59f36694ecaeb88c37002e47aa4f2c2c0fabcf4"
+        },
+        {
+          "path": "references/tutorials.md",
+          "sha256": "df587d7616746e301ca03eda5e68069ead99d3ec3c24b511a3f983c48187ed27"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "pytorch-fsdp2",
+      "category": "微调与训练工程",
+      "source": "~/.codex/skills/pytorch-fsdp2",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b540043bd17d741840843df2f76d556d41be29c82a2acd85565ce2b1ce088a50"
+        },
+        {
+          "path": "references/pytorch_dcp_async_recipe.md",
+          "sha256": "1d59c50d255dca746e0b6a04286eba1ce1de55627c73230862b7038f1214fbfd"
+        },
+        {
+          "path": "references/pytorch_dcp_overview.md",
+          "sha256": "81ae7c08701ad657c1fa2775a035631072775266b5387a8c52c74ca535be2567"
+        },
+        {
+          "path": "references/pytorch_dcp_recipe.md",
+          "sha256": "94f7f6d50817386395a717ff14eca95e762831daeac1e5a7aa169d6f64698d7b"
+        },
+        {
+          "path": "references/pytorch_ddp_notes.md",
+          "sha256": "cbf7ca5f02440e864b59fb5095979b9e1d3404d7e5af94f9a89da364c31b6975"
+        },
+        {
+          "path": "references/pytorch_device_mesh_tutorial.md",
+          "sha256": "af3941d5347faa986fd8aa1ef7a5b4ca4fb8f8a89f2380fe1edea0ecc4323863"
+        },
+        {
+          "path": "references/pytorch_examples_fsdp2.md",
+          "sha256": "1b966ff1655ed1280ec22b648b6d285f3794e4425b5301ecda941e4078c8766d"
+        },
+        {
+          "path": "references/pytorch_fsdp1_api.md",
+          "sha256": "cf4c0228216ae4cbcff2b57b35f4c677af8d2a803ce8bc38cb8df5602e11b716"
+        },
+        {
+          "path": "references/pytorch_fsdp2_tutorial.md",
+          "sha256": "fe062caeacddbfee7eaafd7cad83c22300ee5450f2b04db02db5696408712e2a"
+        },
+        {
+          "path": "references/pytorch_fully_shard_api.md",
+          "sha256": "1481a3f56062c55c54f1db2b3a1828dca14224a871b67be93b9b515f49cb12f8"
+        },
+        {
+          "path": "references/pytorch_tp_tutorial.md",
+          "sha256": "2c5857146d422427ac1ca3924aa87abd89a55d94ffb6f66a28a7d9a45c975cbb"
+        },
+        {
+          "path": "references/ray_train_fsdp2_example.md",
+          "sha256": "12f3f3f618b9ae59361bbbb0006439f9c5132d802f5faeb900c3f9cd97f0c3a9"
+        },
+        {
+          "path": "references/torchtitan_fsdp_notes.md",
+          "sha256": "989d3b724b551f150726e38ed17a297a1ca99b00ba9c77acc4aded3ea741e89c"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "bitsandbytes",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/bitsandbytes",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "0a68e96c760b0ba561437328211a8405b4db422e9bad92415219abf91f87f849"
+        },
+        {
+          "path": "references/memory-optimization.md",
+          "sha256": "6bccb532de6a904785ca569144fb8648a1a705720bd894fac450dd5bea810567"
+        },
+        {
+          "path": "references/qlora-training.md",
+          "sha256": "13636bc72fbf80bcfa9c4800df4310fd143899d457df0f9a24eedfd7a449ae24"
+        },
+        {
+          "path": "references/quantization-formats.md",
+          "sha256": "5359ef0ca8e5837d390da62f972256d924b934c3552365c70fffe6d58104ac7e"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "awq",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/awq",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "9a875e53113c11b00ab417fc393eb504f8be97d50c2e6901c762b991388bf717"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "0630d5b6c3f5c8a5fcd38898f305b5b732ac8cc63580023cebcd067a698db4a7"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "14187391e2025b0d428977f33caaea7ccf5388aee6f879309ef49f5fc95a6d5d"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "gptq",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/gptq",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ce19de416afa03a0e6a764c9cb8b8ba9a0b94812b9de1ad5a0c2cb2932009f28"
+        },
+        {
+          "path": "references/calibration.md",
+          "sha256": "30b6aa7c9b83f8d12b575f1b6614e742c8739e4ac65b7fdbab8ac7ca987ce394"
+        },
+        {
+          "path": "references/integration.md",
+          "sha256": "e5f04065bf696aeef066728447fb0d3daf487d01f2f6a8b08faa5a2f43453ae2"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "c20b085b6feda47397eef85ea4a47dcf59062da26149741966bd2900805c6e59"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "gguf",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/gguf",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "11016e03b2b53c9a981f1ef7df96b078daf9bc929126ccf36377b86bb7025224"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "ee7ed3b7c06b393b85109d5aa4816cf7d6e6fd2f0a8fdbb90db5eb03ad301f88"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "a83f9df40a6db7857b4b3ce3a982da7e939680ee89079170d4d258392804e09c"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "hqq",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/hqq",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "4feba64227f6db505044663cd5432bf9c0599c5c8984d94d3b2d1598711a1f80"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "69da7e0061315e1a4054c4aaa4131b9cdb045f7f3e5266a7336ddcd82daa5870"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "a32a80d1d392eea56cd903ccdc0b256f96a38711f737cee5cc05f5cf980ee3c2"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "llama-cpp",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/llama-cpp",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d74caa45483f5b3c6bd6267e39b444627989ff90fdb84b6c2e7c3da4ddf143ef"
+        },
+        {
+          "path": "references/optimization.md",
+          "sha256": "4e89811c0827f5eb9deb9fc609cd441eb197fb0fa85e79dd8c1f272b14a669fd"
+        },
+        {
+          "path": "references/quantization.md",
+          "sha256": "c7686a86893d4e0e052cc733b62ea1bc0e5dae8f1b174436cc293a46a486893d"
+        },
+        {
+          "path": "references/server.md",
+          "sha256": "181a84ae177f305205cc30d05305fc4237aa255f3fff29299362cb1e0cb6db64"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "vllm",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/vllm",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "57eaf97e982fe758b6fd0ef2281b6961940e4a1c8258f303b0ce02d55d0636c6"
+        },
+        {
+          "path": "references/optimization.md",
+          "sha256": "0f860d337adb1d0723d4070d8b3144517f111ad7f653606927bc67a7a019b1ac"
+        },
+        {
+          "path": "references/quantization.md",
+          "sha256": "5fb30ea9e8fbec4a7f3047f37d10c0900d10cd2df66555818ffd425a3b29b270"
+        },
+        {
+          "path": "references/server-deployment.md",
+          "sha256": "7db618ec40b865fe2efacf46c04c3d5dc233fc64a3c63d26451afb97b795113e"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "307acd908e60674017bd2363726e6b9be19410062e3db0645290a69802976283"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "sglang",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/sglang",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "05e664a43bb82df2363ef22ceba81a41394a2b819c3367b2413f661485085c8f"
+        },
+        {
+          "path": "references/deployment.md",
+          "sha256": "e5400d1e6c79d3e95eed16f9d44c7d87595350a9f56a65869c64eec287ebd46e"
+        },
+        {
+          "path": "references/radix-attention.md",
+          "sha256": "c47e5a9adfa0b7904373e15e9af5c26dbfc9d4967d0ea1d73d644b4b27e770ba"
+        },
+        {
+          "path": "references/structured-generation.md",
+          "sha256": "e5bade39d37dccc2cdd85da8c16bf46e924ba168292271c4b2007c8b472696f1"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "tensorrt-llm",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/tensorrt-llm",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "13f8e09b3e05b2167919011dfa8a44e067c7e0563a1e7dc01c26752cf85da11f"
+        },
+        {
+          "path": "references/multi-gpu.md",
+          "sha256": "f5992df6c444d4300dd1b7cbe150e998806128c911eba3387f4aada84a01ecee"
+        },
+        {
+          "path": "references/optimization.md",
+          "sha256": "deb727998b471654231730faf2e4ad2ae82fea99e18ae991528a94bba57a83e8"
+        },
+        {
+          "path": "references/serving.md",
+          "sha256": "edab4ad7f7bda4938ff62ddb9d01f846829f42a4fb03b7fcd00eb48d5d3fc893"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "flash-attention",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/flash-attention",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e0c1da83766332e0f3db4bcca954c3a70be399632758dcec2680aa82e236438d"
+        },
+        {
+          "path": "references/benchmarks.md",
+          "sha256": "264ff3060af824c32f7a6e3c0e0208c38646c728b2292fb35ede923a38d60b6b"
+        },
+        {
+          "path": "references/transformers-integration.md",
+          "sha256": "89ebe8e20756ee218103a1144d4682e960a0faa07870c2588530bc8d26c441a1"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "speculative-decoding",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/speculative-decoding",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d818b841ffe3e338569ab7caa0d54516f51c649e52fd1af2d5de5d0435b39f99"
+        },
+        {
+          "path": "references/lookahead.md",
+          "sha256": "125deff2e37202dacffcdf9e38909a9632be02248abb752eebed254f5367769f"
+        },
+        {
+          "path": "references/medusa.md",
+          "sha256": "36a2b30da8eab45fbf2c084e53fdf688edf18ebc885f9881107e112a91a3162c"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "knowledge-distillation",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/knowledge-distillation",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "bc27086dc02840cebef4db34db4b8406b37ff349d6e2a52848646c8daf24ff3e"
+        },
+        {
+          "path": "references/minillm.md",
+          "sha256": "662fb6517f13f805ead6a87aaa1c1326fa3cda639680f40fe6b80a31ea5c6e51"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "model-merging",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/model-merging",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "dfbcc6d6dfef57489ac69cb6f3a858783f16dff2ecfc72eb2fac168fd2ecc87d"
+        },
+        {
+          "path": "references/coefficient-tuning.md",
+          "sha256": "4836dc682d0d09a0159ddd090d0091bf1455a9d07106da35be6f555a7c531d34"
+        },
+        {
+          "path": "references/evaluation.md",
+          "sha256": "367ee2d0fb1832dc3eb32de0e7f2f658bf5ad5c3d0c66d43e1cb509b78df246d"
+        },
+        {
+          "path": "references/examples.md",
+          "sha256": "b03af94b7e5b9b04c354e7128282f028732af7fa817daf4bc19d960c4edac42d"
+        },
+        {
+          "path": "references/methods.md",
+          "sha256": "c5d3e7bd7fc3c0c262347c92881c7d6f7260cb13df0a0f9815c6087bccf3656f"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "model-pruning",
+      "category": "量化部署与优化",
+      "source": "~/.codex/skills/model-pruning",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "aca913d834bc1e3d39bbfb75d0658d5a1b9acabf6511744719c5bab91bf306a8"
+        },
+        {
+          "path": "references/wanda.md",
+          "sha256": "e65c2c2c11090131e129acdc3a557c60c4435b87ca627930840a238207e76949"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "langsmith",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/langsmith",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3611688a297b95bd8695cdaa9e9f12db4c7cda6c94a4ae82e55f99fa6cbf7f53"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "c27afa012b3daae35324f715fe860dfbe7e0034eeafccb0d39a7641a2fd72144"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "5e3f797c275c43509c81ad4f9252170286750e6b8158f35bad0f05a8aa75aa88"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "phoenix",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/phoenix",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "111bd54f145ca57360f7e6f08f95202e937ac134e3dbf486a51cbaa008546e2b"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "d57d7687c912425a00103fb4837ef10da6a4d20f883648832728dbb4e26ca7bc"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "25ef129e3c0b49307b6d8d9fee0f0e40e131a299e5be338ca4bb27329c611245"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "mlflow",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/mlflow",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "36d2581f7d8beb8b27f66bbef5c94df7e9604b917c3aa15e4183a48a2b1f3f96"
+        },
+        {
+          "path": "references/deployment.md",
+          "sha256": "e3fbee780f5b8dddedadd53bbe3db490eb2611bea920ea52849e10262841539d"
+        },
+        {
+          "path": "references/model-registry.md",
+          "sha256": "fdfdfb609e1fa3123c5948ecce3275eef8ce0b9437ca2e957bb22a6eb29372eb"
+        },
+        {
+          "path": "references/tracking.md",
+          "sha256": "e2b63991f10bf208d8444791c62b0a83c049c37da0c5722e4124805dfb1ba405"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "tensorboard",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/tensorboard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "717c4b05f88bbc888d54cc51fa390ae225d687b3b86fb616e36cc7fc26108020"
+        },
+        {
+          "path": "references/integrations.md",
+          "sha256": "a647d47e9589eb7abbbcb494fc2c8f21c2b8cab1fee3a59e30cab4b81014cd4a"
+        },
+        {
+          "path": "references/profiling.md",
+          "sha256": "1471302d589c00c3bd9d0247008d732e4f446842692b2dc4587ec8278acd33d8"
+        },
+        {
+          "path": "references/visualization.md",
+          "sha256": "0e5ef61808dc0bb1d3820a0695aa86a4af6659f1ba2324204953b84dda6f3815"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "weights-and-biases",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/weights-and-biases",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3cd5daa7cad70d97c96b2d6fdf8d0fc1ed8a97b1750c4e013e2405389baed3b6"
+        },
+        {
+          "path": "references/artifacts.md",
+          "sha256": "3e4c2ebe70b310e74fdadb5e08af9822eba5b585ef6ad1e66012016b8fc6d461"
+        },
+        {
+          "path": "references/integrations.md",
+          "sha256": "b11f806e19002e589d959d6f56d9d03986520923ee89ee4328822a6fff190251"
+        },
+        {
+          "path": "references/sweeps.md",
+          "sha256": "c59012acf49ec73b0bbf4b2ff7713d0611d1372ba92a9e21337ae76d153a1f0d"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "swanlab",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/swanlab",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "14b0f74e6383e4e43cc78785706b43f0343801ba96c14b56284142203be48eff"
+        },
+        {
+          "path": "references/integrations.md",
+          "sha256": "19330c5858713313989dfba3b3d00c87929fc29d74ee9a37b97eb5cdc84b7fd2"
+        },
+        {
+          "path": "references/visualization.md",
+          "sha256": "9ab81ed4397eff3b3c3db12c0156bf5effae6d856fc00dad6196eb7482b6f610"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "ray-data",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/ray-data",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "bcc73b3341dca18c59cad092cb6dedb7ac0bf0bde80467a039921ac0c02256c3"
+        },
+        {
+          "path": "references/integration.md",
+          "sha256": "d182e025b0396779442f16b6461c0bf140a337635051cfb8472698a18f4099ca"
+        },
+        {
+          "path": "references/transformations.md",
+          "sha256": "afc01ade53bc95de6dec6de614b52c6f92eb4a0b141740d937b5dd1855de380d"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "ray-train",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/ray-train",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7f88c141557e3f0cc5b456571d1ae99bef4161a9c1765bc725847cfbd0fb1170"
+        },
+        {
+          "path": "references/multi-node.md",
+          "sha256": "79b7f3cb8264ca2d8897b8e6e2e7bdb4d9207e2a2ea6e4b4d18d8fe073afd401"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "nemo-curator",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/nemo-curator",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d8586e21ecd4df1a32371f8d86746f8fbd88358f5dc8957e5dd91a473d2ab484"
+        },
+        {
+          "path": "references/deduplication.md",
+          "sha256": "ca5594ba9ee317726f7f5932d89f82b7be0b2db9744e41b935f541bd13f2fa0a"
+        },
+        {
+          "path": "references/filtering.md",
+          "sha256": "d02c933f79b140c65e88a5af1567aa47a6cbf8eed522d8eae5ef977daf346f0a"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "nemo-evaluator",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/nemo-evaluator",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "97bc3483974c2b930acf3f46e21c865e1b27e92359e19bdb465515d9e86ff10f"
+        },
+        {
+          "path": "references/adapter-system.md",
+          "sha256": "b28d7df8c090c7ce6061b16b0e436640945e6cf7a84e2e0e6a06ba4d18845b0a"
+        },
+        {
+          "path": "references/configuration.md",
+          "sha256": "36e716ee8b988acf67d781940a8346ea4204591601714504a003e95dd674f45e"
+        },
+        {
+          "path": "references/custom-benchmarks.md",
+          "sha256": "f20a0d0006f5aba39328eaf528fe3e4cfb1a1d23143a6d0fe90f7c2d890620a3"
+        },
+        {
+          "path": "references/execution-backends.md",
+          "sha256": "9b4a6fd37c72bb0d983c2e01387a3e9584e7fe5af5f50d467cbe255a175aa03d"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "lm-evaluation-harness",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/lm-evaluation-harness",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "891b77bc09118393f9bd1235404ee3f0cf412f56e57dc4b454e2fbd8fd507bc3"
+        },
+        {
+          "path": "references/api-evaluation.md",
+          "sha256": "433372d84b8bbd6c28e5b971c1aae7c5d2d032aae9ff23dd7d7a47a51277dc78"
+        },
+        {
+          "path": "references/benchmark-guide.md",
+          "sha256": "6f3e6daf78cee21453cebc1c4688ee126fbf0d4566782496dd5841dd669ae295"
+        },
+        {
+          "path": "references/custom-tasks.md",
+          "sha256": "c6b5591c77c16570b43fa5f497405a65f35ef73d1702a3871cc0c8a257c76aeb"
+        },
+        {
+          "path": "references/distributed-eval.md",
+          "sha256": "3ddc4551f25ce0d3cb09f971f27191331fb65b5b4c882efd4a9bde7bdfb82353"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "bigcode-evaluation-harness",
+      "category": "评估观测与数据处理",
+      "source": "~/.codex/skills/bigcode-evaluation-harness",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7c46e8eb3ca8d4f51769162d16d87a7dff5ec0c4609131fd3c62fcb463522874"
+        },
+        {
+          "path": "references/benchmarks.md",
+          "sha256": "50c5640497be1861dc69ef886f2e4f4684162c28d57ee928111f1c4c71e4be2d"
+        },
+        {
+          "path": "references/custom-tasks.md",
+          "sha256": "4f868c5c84d1889fbd6e3f09297ce439be70a9af6f8694bd274481ab09677272"
+        },
+        {
+          "path": "references/issues.md",
+          "sha256": "09832ab736fec29fc949101f81b806c0c6fc366124eada17967aac72ea5a63a1"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "nemo-guardrails",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/nemo-guardrails",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d0d91892eaba80cf829ef6bb1b37f3b5fa8cc31ba1fa89d162ab380b90ca2762"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "llamaguard",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/llamaguard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "80c5afb39cb153d82e08dca44fbd3ea75a5e950b8bef65c2c1af8bbbe9ef3992"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "prompt-guard",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/prompt-guard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "0291e30b5549f0398f4bbe72f8918f16eced4c75d45dfd7c87648f72dc97ecce"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "system-profile",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/system-profile",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "9d31e32d2a63cf2f27a843e171c652327596c3f9e911c265660618d4ba27c48e"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "web-debug-search",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/web-debug-search",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ffb5f3ccf61c45d90c41901c251263f945c67baba0f91cb300cc1d53dcd63d01"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "exa-search",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/exa-search",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "bb3ec11445ad13e897f891bf0873fa634ced9532de01e4542c342dc2c4ba4edb"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "humanizer-zh",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/humanizer-zh",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "e52aac198acd71945e1730f45cafba41fffda4e2a0d7d6a38175880aae8eabea"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7"
+        },
+        {
+          "path": "README.md",
+          "sha256": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "mermaid-diagram",
+      "category": "运行防护与开发辅助",
+      "source": "~/.codex/skills/mermaid-diagram",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2d9eab0a8b1cc94e43799171287ed85455d8cfa2b75d4f19269bad168d8bb1dd"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "whisper",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/whisper",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "acce14621ec8060db480fade27896a1fba0c99ba037c07684b876cc31027276c"
+        },
+        {
+          "path": "references/languages.md",
+          "sha256": "2803cd39805b989c465f5b6c1c1d1a4c825510fb5469d5f96eae9eb775b51f37"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "clip",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/clip",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "9fcacf1c041d71ef1e61c7cac2bb7a2c42c3d19d6c2a0fc2e5f5a3c9641b7a3e"
+        },
+        {
+          "path": "references/applications.md",
+          "sha256": "682fc313e63cefbe466ed0efdf48048946a3abb292e5f32cf4058fcf59692ae9"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "blip-2",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/blip-2",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "38227abdcb742add1284ba117881e899c020b7ebb5c39b5202a97d60c3ad8d3e"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "30b3c97fb721ab11d8906e0dae54a8037665e15ec69c96fb2f772661a815a543"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "0f35f87010746047a721074adb40549a89d853c9b9a0dd9350edff31345d16d0"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "llava",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/llava",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e2c915ece2f3e50ea110320b7a364dd36361d3010e102e800416dfa3b4299745"
+        },
+        {
+          "path": "references/training.md",
+          "sha256": "6377ab1567ba7d2882bb079233c534fa8e3ff209f2c624f0fbc9db019bc53aa0"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "segment-anything",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/segment-anything",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6ac5c2f96cf7d0ae5f787164678701266930129aa06cc21818f20f77dacb6a71"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "73a46290ac6986333e5ef65b785afc7c9463d6835d8a67c5f74f418fa284fb39"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "cbab544d97ddc3813b4f74c805086579e7bd51547ccf9830dd44fa5936b07b4e"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "stable-diffusion",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/stable-diffusion",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "816dce0d04b2e2ddc1510a5aaf3e545778f4c59f7329af689dc9941bbbebca37"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "ff9c1b1621353af90926c66d39e4bbbd1e9469905cd5213ec06d2c971df567b7"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "6d42dc6feaa88f0761fac039664739ba1924cf4d4b8efebc38e4bd641b57c7c0"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "audiocraft",
+      "category": "语音视觉与生成应用",
+      "source": "~/.codex/skills/audiocraft",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3f9efaebd7331bea86022a101329074c6eab8af2d33591e691c565fcba641a5f"
+        },
+        {
+          "path": "references/advanced-usage.md",
+          "sha256": "5efe98c6ebcd0107e48c809cadc0e48591f9c235ac47014f39a40772fc45116d"
+        },
+        {
+          "path": "references/troubleshooting.md",
+          "sha256": "af0c56aca0902aca6f05350caab3750de608cf904a4e6bb9dd0967c664d8de0e"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "find-skills",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/find-skills",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "deddc03b4b5f50755b97fcdb737a786676992ef7e9be614d2cd2c71e0320bebf"
+        }
+      ],
+      "restore_method": "copy_skill_directory"
+    },
+    {
+      "name": "understand",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b2ba5105a9980138753634acde82404c0e5ce8e42fd4f938ec4e01b4d47ed9d4"
+        },
+        {
+          "path": "build-fingerprints.mjs",
+          "sha256": "2ed228677bbf1bda3fba00d4662c8e542caa3d69c5fed911c4878e6382767881"
+        },
+        {
+          "path": "compute-batches.mjs",
+          "sha256": "bf46aad17058e5b6dddac27059ec99df2dadb2f9dceddc5d8e12b9c8a7754c5f"
+        },
+        {
+          "path": "extract-import-map.mjs",
+          "sha256": "5044daadea18bef6f3b6016d653ec220b692d2ff67bc311d4f12d94905fa09be"
+        },
+        {
+          "path": "extract-structure-result.mjs",
+          "sha256": "1607c3ba45a120db413d724c28d25b28fed8dcefa28ea82cfa1345f180e662a8"
+        },
+        {
+          "path": "extract-structure.mjs",
+          "sha256": "cb078fdb5b3909cf154fe4946f29e9b5efda9b906442b30a14d86130fbc1b383"
+        },
+        {
+          "path": "frameworks/django.md",
+          "sha256": "a2257a849cf64d09cf2869a3106991264d7f50acd03c93e76284ed288cba7051"
+        },
+        {
+          "path": "frameworks/express.md",
+          "sha256": "0a7b0d4ddc72fca3d1cbf5d7c63739f4cbbb924b86625907df03656b6734898c"
+        },
+        {
+          "path": "frameworks/fastapi.md",
+          "sha256": "54f971f48dd74a6138d9cd03a3c4e7f4b06ab803403a663ebcc4a6422c0671b1"
+        },
+        {
+          "path": "frameworks/flask.md",
+          "sha256": "645844e41c9a09ab47233c4ed68febfb7e15d8cc6bb354bb029b4218b0d6141c"
+        },
+        {
+          "path": "frameworks/gin.md",
+          "sha256": "6621187a9fe0023d7d36ffe51680571ee58a7a77ebe915db4d35b6fb26eadb77"
+        },
+        {
+          "path": "frameworks/nextjs.md",
+          "sha256": "99ae673ecaf27381e18483b12a6dc66ce7bbc37f3bf8f2f66344a160a882f2ea"
+        },
+        {
+          "path": "frameworks/rails.md",
+          "sha256": "f5fb1fb05a32c9e71ba44e93d205252fd4e58b71a6cce9d62cd4ee20d14adc36"
+        },
+        {
+          "path": "frameworks/react.md",
+          "sha256": "eaaf30363244b89a6bad91971f3d476ec809a8892f387a8bf33c04638a04af20"
+        },
+        {
+          "path": "frameworks/spring.md",
+          "sha256": "296c10395b794c8c0741cd2faaa61f9e171933003f39cbe45f462237ed1066c6"
+        },
+        {
+          "path": "frameworks/vue.md",
+          "sha256": "49a432fe59c8b0759632bd1745b4acc7ddcaef4343a270d97698d9bede69e5db"
+        },
+        {
+          "path": "generate-ignore.mjs",
+          "sha256": "38227d8e3175c16f0c18e2d232ee642958132a0756b53224ef66cec3c47ff421"
+        },
+        {
+          "path": "languages/cpp.md",
+          "sha256": "2a658bb677944fa58e6a244430d120cb0657d09e4e50fe28a9cdfbdd554f46f9"
+        },
+        {
+          "path": "languages/csharp.md",
+          "sha256": "507cb86fb5c494d9d5e8ab947015ac6f4e7a2c280c0509ffdbab812a0472c467"
+        },
+        {
+          "path": "languages/css.md",
+          "sha256": "ed3a8dcd96e9921d8d85cfcf0ea07d7a15838cd076180017a80162b1b7166131"
+        },
+        {
+          "path": "languages/dockerfile.md",
+          "sha256": "bb548a778970cb234ea805ee35dde488274eb077d2b671aa4b55297985f88bb6"
+        },
+        {
+          "path": "languages/go.md",
+          "sha256": "359f808ba97c79726598fe92478ee5680c1bd22a6065db9d374e403f5e19f0e1"
+        },
+        {
+          "path": "languages/graphql.md",
+          "sha256": "735b28063ee40ad7b07fc76a4268f96fa59f9fd5d38f185f4914275a1fa430e3"
+        },
+        {
+          "path": "languages/html.md",
+          "sha256": "059b74d8ca82efa09c273afc00aa96796202f637f147242990ebe2c90897ce3f"
+        },
+        {
+          "path": "languages/java.md",
+          "sha256": "fd8584d68da5d11e2b8b4e1c8a3d737175bfe77abe55ba49ca5750359571f55d"
+        },
+        {
+          "path": "languages/javascript.md",
+          "sha256": "4e2bc5e4c4139c86baf2a0e48587a4130d337d06929a323d8b2ab302c3355352"
+        },
+        {
+          "path": "languages/json.md",
+          "sha256": "6a420be6610ed2c5f2950f72b1e3f9c6c15a2377f23d70e066a9bd4ae860cf4a"
+        },
+        {
+          "path": "languages/kotlin.md",
+          "sha256": "fe3d5eff0f190027ce6e9686bc80e7dce4313aced194a014febb3e93cd091977"
+        },
+        {
+          "path": "languages/markdown.md",
+          "sha256": "32203c73af64c9f38768199887a25f5e58c166957b82b8b8934fb926d614f944"
+        },
+        {
+          "path": "languages/php.md",
+          "sha256": "043635d64c89b6293936085f2cd341f055d61b71132b0d09ed599e608023c772"
+        },
+        {
+          "path": "languages/protobuf.md",
+          "sha256": "7db34b5f2085ab14ac888c4c817caa6f1045a7405e14f7c30000bec93139b3dd"
+        },
+        {
+          "path": "languages/python.md",
+          "sha256": "bb6553846c7ddb63ab4c156caf183fa64f59c63a56c3b0aaa42f764f9332ba94"
+        },
+        {
+          "path": "languages/ruby.md",
+          "sha256": "f5942f0e7136e48723c7d70ef49358cc9d12d4e3b3144e65607c947137382788"
+        },
+        {
+          "path": "languages/rust.md",
+          "sha256": "32cb3c3fcd1a560821ed09dd9a0da184dfa5c79c85f1e03034945ef4d14208d4"
+        },
+        {
+          "path": "languages/scala.md",
+          "sha256": "95b9f2c45f473e02226031b6998f2a2c6201d33304d0d885f5cc578ca3e3855c"
+        },
+        {
+          "path": "languages/shell.md",
+          "sha256": "f9992d17799065cef318c6906ad6cdad646cb3bbbe9ff1d07234a0634f587bd9"
+        },
+        {
+          "path": "languages/sql.md",
+          "sha256": "d0345797e637e91ae8e98f1f9fc37b62b881a6691e2801a60139fc422341c4a4"
+        },
+        {
+          "path": "languages/swift.md",
+          "sha256": "4c866204fffe114a4e27f11b162829257cd687020cb69b30bce88dbfff334775"
+        },
+        {
+          "path": "languages/terraform.md",
+          "sha256": "862d02b31ebc9de6d03d2112cf17084fcc15b4952bed08fa39e69260d642748e"
+        },
+        {
+          "path": "languages/typescript.md",
+          "sha256": "20d6d1ae757d806b8a4aeb0aa6e9fb5c3307ad4e3c83715d2e8532924e8afda6"
+        },
+        {
+          "path": "languages/yaml.md",
+          "sha256": "0cda6694a866ca53715a23cafcc00d5e8995437916a49e40eb77a50114e55d7f"
+        },
+        {
+          "path": "locales/en.md",
+          "sha256": "bfbecb6e2e902bf92ee0476a35ea8c267fd7040ba8ffa2621da183fe767dc3b2"
+        },
+        {
+          "path": "locales/ja.md",
+          "sha256": "97c8462f64dd6fd8400861eb49871b27640b144d532e4be7f866689eefc7b7c6"
+        },
+        {
+          "path": "locales/ko.md",
+          "sha256": "2a7cbed153d563221516858160b073e33b1080881b13a652f60667e98f0a3e6f"
+        },
+        {
+          "path": "locales/ru.md",
+          "sha256": "02a9cfb7894ffd6e68a24d1dfd050ccc06bd66cac10b0b35d75acf72cedf12de"
+        },
+        {
+          "path": "locales/zh-TW.md",
+          "sha256": "727f14f80a4edb73dfe53025686d5d3afe865eaa554ec1c6c787f3a9a070621f"
+        },
+        {
+          "path": "locales/zh.md",
+          "sha256": "06cbd26979a3383f6177b3d37995bef44f104ebe2de43704b8b1d1b5031ad98b"
+        },
+        {
+          "path": "merge-batch-graphs.py",
+          "sha256": "761bae921056069f0b36707cd2cae4bdba1e68c633b45d8bf4ecda3c2eb46754"
+        },
+        {
+          "path": "merge-subdomain-graphs.py",
+          "sha256": "75aa0967ea8f93ba2538b1f2fcc0a48e6b38f7bcf12de3b42f9733d5dddf0d28"
+        },
+        {
+          "path": "scan-project.mjs",
+          "sha256": "1e084165eb17808cce68cd47647210f2c824e2a5643177aff36855aa9c6c81ec"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-chat",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-chat",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "64a4219e55ffff1d6ac062092c5fa21dc5bb35ad4ca84c2f523be5f86553ad68"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-dashboard",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-dashboard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e6b0a8204a32d10b93e640d070f6377fea6664e4e940b6fbce4c6660e6ab4d30"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-diff",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-diff",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "747a84b1a25f9b65f2b0dea3ed37bb701e70b31d8e5d03d04c4b10805c56a3fd"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-domain",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-domain",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f859cef18c69c8f3f1203657641182d6eddf6148260b2ebb7ecf60dc0f85b32c"
+        },
+        {
+          "path": "extract-domain-context.py",
+          "sha256": "e44109e71eafe3d4572ba38604b64dbeb8e4fff197c10559bb494f4bb548de35"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-explain",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-explain",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e247eca681a4167254901e920cc6008c78bd556aa2cb15ef52f5c9b160a46737"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-knowledge",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-knowledge",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e30acd0e15e79eee3e424c954bed189be6d817088e2779556934ea70a227bce3"
+        },
+        {
+          "path": "merge-knowledge-graph.py",
+          "sha256": "f5690aacc4fe90102923ba72e07f79e50ba7d0cebf53cdcad679b7a3534470de"
+        },
+        {
+          "path": "parse-knowledge-base.py",
+          "sha256": "2db13c356bbcae9b976b311fcd3fcec5dbfd2408bc584a1d2f525b0f1e66d51c"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    },
+    {
+      "name": "understand-onboard",
+      "category": "代码理解与技能发现",
+      "source": "~/.agents/skills/understand-onboard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "fad391a6526aeeb90ae8686e071ebe2d29700ebb4ea975e47a1c6da8b66171c3"
+        }
+      ],
+      "restore_method": "reinstall_plugin_then_merge_skill",
+      "plugin_source": "https://github.com/Lum1104/Understand-Anything.git",
+      "source_commit": "b42e40d65850559f26918c45c1c8378c03cb588f"
+    }
+  ]
+}
